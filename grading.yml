@@ -57,28 +57,21 @@ grades:
 
 modules:
     m0:
-        - scratch
-    m1:
         - hello
         - water
-        - mario_less
-        - mario_more
-        - cash
-        - credit
-    m2:
         - caesar
         - vigenere
         - crack
-    m3:
+    m1:
         - fifteen
         - find_less
         - find_more
-    m4:
+    m2:
         - whodunit
         - resize_less
         - resize_more
         - recover
-    m5:
+    m3:
         - speller
 
 calculation:
