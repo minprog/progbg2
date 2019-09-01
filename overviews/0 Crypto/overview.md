@@ -50,6 +50,8 @@ As soon as you have submitted working solutions for all problems below, your men
 
 ## What to Do
 
+- Watch the lecture on [Tools](/lectures/tools)
+
 - Watch the lecture on [Arrays](/lectures/arrays)
 
 - Implement either of:
@@ -70,6 +72,8 @@ As soon as you have submitted working solutions for all problems below, your men
 
 
 ## Reference
+
+Below are several "short" videos explaining details about the C programming language and problem solving aspects.
 
 - Learn more about [Debugging](https://www.youtube.com/embed/w4TAY2HPLEg?autoplay=1&rel=0)
 
