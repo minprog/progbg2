@@ -1,4 +1,4 @@
-# Module 0: C
+# Module 0: Crypto
 
 In this module, you'll learn about the C programming language. It's a great language that has been used to make small and large programs alike. You'll start with the small ones!
 
