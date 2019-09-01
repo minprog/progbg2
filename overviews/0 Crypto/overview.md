@@ -56,7 +56,7 @@ As soon as you have submitted working solutions for all problems below, your men
 
     - [Initials](/problems/initials-less), for most students
 
-    - [Initials](/problems/initials-more), for those more comfortable
+    - [Initials](/problems/initials-more), "hacker" edition
 
 - Implement:
 
@@ -66,7 +66,7 @@ As soon as you have submitted working solutions for all problems below, your men
 
     - [Vigenere](/problems/vigenere), for most students
 
-    - [Crack](/problems/crack), for those more comfortable
+    - [Crack](/problems/crack), hacker edition
 
 
 ## Reference
