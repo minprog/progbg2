@@ -57,8 +57,8 @@ grades:
 
 modules:
     m0:
-        - hello
-        - water
+        - initials_less
+        - initials_more
         - caesar
         - vigenere
         - crack
