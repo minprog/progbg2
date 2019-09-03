@@ -44,10 +44,10 @@ As soon as you have submitted working solutions for all problems below, your men
 
 This week we focus on:
 
-- [Comments](/quality-aspects/comments)
-- [Naming](/quality-aspects/naming)
-- [Indenting code](/quality-aspects/indentation)
-- [Whitespace](/quality-aspects/whitespace)
+- [Comments](/quality/comments)
+- [Naming](/quality/naming)
+- [Indenting code](/quality/indentation)
+- [Whitespace](/quality/whitespace)
 
 
 ## What to Do
