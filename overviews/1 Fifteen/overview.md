@@ -31,23 +31,17 @@ And we'll also take these into account from last week: [comments](/quality/comme
 
 ## What to Do
 
+- Watch the lecture on [Tools](/lectures/tools)
+
 - Watch the lecture on [Algorithms](/lectures/algorithms)
 
 - Implement either of:
 
-    - [Find](/problems/find-less), for those less comfortable
+    - [Find](/problems/find-less), the version for most students
 
-    - [Find](/problems/find-more), for those more comfortable
+    - [Find](/problems/find-more), the "hacker" edition
 
-- Implement [Fifteen](/problems/fifteen)
-
-#### Exercises
-
-Study and take the test on Thursday:
-
-- [Unscratch](/exercises/unscratch)
-
-- Learn more about [Arrays](https://www.youtube.com/embed/K1yC1xshF40?autoplay=1&rel=0), practice with book chapters 7, 8 and 9, and take the test.
+- Then, implement [Fifteen](/problems/fifteen)
 
 
 ## Reference
