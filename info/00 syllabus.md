@@ -86,7 +86,14 @@ Het is verplicht minimaal één keer per week een practicum bij te wonen.
 
 ## Toetsjes
 
-Regelmatig (na de eerste week) vinden toetsjes plaats waarin de stof van de vorige weken wordt herhaald en scherper gemaakt. Alle toetsjes moeten gehaald worden om de cursus te voltooien, maar alle toetsjes kunnen zonodig binnen enkele dagen herkanst worden. Meer informatie krijg je bij het afnemen van de toetsjes.
+**Toetsjes vinden mogelijk nog in latere weken plaats. Het idee is dat je hiermee een deel van het tentamen al binnensleept. Mocht er geen toetsje meer plaatsvinden dan is er een "normaal" tentamen.**
+
+Regelmatig vinden toetsjes plaats waarin de stof van de vorige weken wordt herhaald en scherper gemaakt. Alle toetsjes moeten gehaald worden om de cursus te voltooien, maar alle toetsjes kunnen zonodig binnen enkele dagen herkanst worden. Meer informatie krijg je bij het afnemen van de toetsjes.
+
+
+## Tentamen
+
+In de laatste week van het vak vindt het tentamen plaats. Hier checken we dat je voldoende geleerd hebt van het maken van de opdrachten. De focus ligt dan ook op het toepassen van de theorie. Een oefententamen volgt enkele weken van te voren!
 
 
 ## Boeken
