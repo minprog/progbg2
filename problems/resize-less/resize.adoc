@@ -114,7 +114,7 @@ Here's how to evaluate the correctness of your code using `check50`. But be sure
 
 [source]
 ----
-check50 --local resize/less@minprog/checks
+check50  resize/less@minprog/checks
 ----
 
 === `style50`
