@@ -39,8 +39,6 @@ As soon as you have submitted working solutions for all problems below, your men
 
 -  Implement [Recover](/problems/recover)
 
--  Learn more about [Functions](https://www.youtube.com/embed/n1glFqt3g38?autoplay=1&rel=0) and practice with the book chapter on *strings*, *arrays* and *functions*.
-
 
 ## Reference
 
