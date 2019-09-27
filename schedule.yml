@@ -42,7 +42,5 @@ Module 2:
         Implement Recover: /problems/recover
 Module 3:
     Overview & Grading: /overviews/python
-    Scores:
-        Implement Whodunit: /problems/scores-less
-    Tweet:
-        Implement Whodunit: /problems/tweet
+    Implement Scores: /problems/scores-less
+    Implement Tweet: /problems/tweet
