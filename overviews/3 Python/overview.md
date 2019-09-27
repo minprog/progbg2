@@ -1,6 +1,6 @@
 # Module 3: Python
 
-And now we're back to Python! You have already worked with this language in an earlier course. Before we get on with introducing lots of new stuff, let's 
+And now we're back to Python! You have already worked with this language in an earlier course. Before we get on with introducing lots of new stuff, let's get reacquainted.
 
 
 ## Help
