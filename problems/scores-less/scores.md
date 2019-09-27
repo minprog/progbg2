@@ -2,6 +2,7 @@
 
 Schrijf een programma dat scores van 0 t/m 10 vanuit de terminal inleest en een barchart van `#`-jes uitprint.
 
+
 ## Gebruik
 
     $ python scores.py
@@ -27,17 +28,19 @@ Schrijf een programma dat scores van 0 t/m 10 vanuit de terminal inleest en een 
 ## Specificatie
 
 * Schrijf een programma `scores.py` dat scores (integers) inleest totdat er een negatieve score wordt ingevuld. Daarna print het programma een horizontale barchart.
-* Negeer alle scores hoger dan 10 en vraag vervolgens de gebruiker opnieuw om input.
+* Negeer elke score hoger dan 10 en de gebruiker meteen opnieuw om input.
 * Je mag aannemen dat de gebruiker altijd een integer invult.
+
 
 ## Tips
 
-* Python is handig met strings, zo kun je strings vermenigvuldigen: `"a" * 3`
+* Python is handig met strings, zo kun je strings vermenigvuldigen: `"a" * 3`.
 * Maak gebruik van een lijst om de input te verzamelen.
-* Gebruik de `input` functie om input van de gebruiker te winnen. Dit kan bijvoorbeeld zo: `name = input("What's your name?")`
-* Je kan strings naar integers veranderen door de `int()` functie. Bijvoorbeeld zo: `int("517")`
-* Python scheidt print output normaal gesproken automatisch met een spatie. Wil je dat niet gebruik dan het extra `sep` argument als volgt: `print("foo", "bar", sep="")`.
-* Wil je niet dat er standaard een newline (`\n`) wordt geprint? Maak dan gebruik van het optionele `end` argument als volgt: `print("foo", end="")`
+* Gebruik de `input` functie om input van de gebruiker te verkrijgen. Dit kan bijvoorbeeld zo: `name = input("What's your name?")`.
+* Je kunt strings naar integers veranderen door de `int()` functie. Bijvoorbeeld zo: `int("517")`
+* Python voegt bij print automatisch spaties toe. Wil je dat niet, gebruik dan het extra `sep` argument: `print("foo", "bar", sep="")`.
+* Wil je niet dat er standaard een newline (`\n`) wordt geprint? Maak dan gebruik van het optionele `end` argument: `print("foo", end="")`.
+
 
 ## Testen
 
