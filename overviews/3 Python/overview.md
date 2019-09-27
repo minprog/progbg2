@@ -1,6 +1,6 @@
-# Module 2: Forensics
+# Module 3: Python
 
-In this module, you'll learn about all sorts of techniques to do with forensic research. See if you can recover those photos from that pesky old memory card!
+And now we're back to Python! You have already worked with this language in an earlier course. Before we get on with introducing lots of new stuff, let's 
 
 
 ## Help
@@ -8,8 +8,6 @@ In this module, you'll learn about all sorts of techniques to do with forensic r
 For information on (or help with) this module:
 
 1. Attend your mentor's section meeting.
-
-1. Use `help50`, `eprintf` and `debug50` as needed.
 
 1. Ask questions during office hours using the "Ask" tool on this website.
 
@@ -31,26 +29,15 @@ And we'll also take these into account from last week: [comments](/quality/comme
 
 ## What to Do
 
--  Watch the lecture on [Memory](/lectures/memory)
+1. Implement [Scores](/problems/scores)
 
--  Figure out [whodunit](/problems/whodunit)
-
--  Implement either of:
-
-    - [Resize](/problems/resize-less), for those less comfortable
-
-    - [Resize](/problems/resize-more), for those more comfortable
-
--  Implement [Recover](/problems/recover)
+2. Implement [Tweet](/problems/tweet)
 
 
 ## Reference
 
-- Learn more about [Hexadecimal](https://www.youtube.com/embed/u_atXp-NF6w?autoplay=1&rel=0)
-
-- Learn more about [Structures](https://www.youtube.com/embed/E4lb2gkyXr8?autoplay=1&rel=0)
-
-- Learn more about [Files and file pointers](https://www.youtube.com/embed/bOF-SpEAYgk?autoplay=1&rel=0)
+- For a thorough overview, watch the [CS50 Python Lecture](https://www.youtube.com/watch?v=mvlTSMUNQN4&t=781s) (start at 13:01).
+- And for a thorough review of Python concepts, watch the [Python "Short"](https://www.youtube.com/watch?v=mgBpcQRDtl0).
 
 
 ## Submitting
