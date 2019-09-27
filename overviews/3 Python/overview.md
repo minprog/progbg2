@@ -29,7 +29,7 @@ And we'll also take these into account from last week: [comments](/quality/comme
 
 ## What to Do
 
-1. Implement [Scores](/problems/scores)
+1. Implement [Scores](/problems/scores-less)
 
 2. Implement [Tweet](/problems/tweet)
 
