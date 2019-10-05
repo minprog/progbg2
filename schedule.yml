@@ -44,3 +44,14 @@ Module 3:
     Overview & Grading: /overviews/python
     Implement Scores: /problems/scores-less
     Implement Tweet: /problems/tweet
+Module 4:
+    Overview & Grading: /overviews/hangman
+    "Video: Main ideas": https://www.lynda.com/Python-tutorials/Object-oriented-thinking/731735/5002881-4.html
+    "Video: Basics": https://www.youtube.com/watch?v=apACNr7DC_s
+    Game of Cards:
+        Register at GitHub: https://github.com/join
+        Implmenent Game of Cards: https://lab.cs50.io/uva/progbg/master/problems/cards/lab
+    "Video: Details 1": https://www.youtube.com/watch?v=wYYzteRKU7U
+    "Video: Details 2": https://www.youtube.com/watch?v=Umpt43ZzmqM
+    Hangman:
+        Implement Hangman: /problems/hangman
