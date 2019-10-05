@@ -46,12 +46,14 @@ Module 3:
     Implement Tweet: /problems/tweet
 Module 4:
     Overview & Grading: /overviews/hangman
-    "Video: Main ideas": https://www.lynda.com/Python-tutorials/Object-oriented-thinking/731735/5002881-4.html
-    "Video: Basics": https://www.youtube.com/watch?v=apACNr7DC_s
+    Preparation:
+        "Video: Main ideas": https://www.lynda.com/Python-tutorials/Object-oriented-thinking/731735/5002881-4.html
+        "Video: Basics": https://www.youtube.com/watch?v=apACNr7DC_s
     Game of Cards:
         Register at GitHub: https://github.com/join
         Implmenent Game of Cards: https://lab.cs50.io/minprog/programmeren-2/master/problems/cards/lab
-    "Video: Details 1": https://www.youtube.com/watch?v=wYYzteRKU7U
-    "Video: Details 2": https://www.youtube.com/watch?v=Umpt43ZzmqM
+    More preparation:
+        "Video: Details 1": https://www.youtube.com/watch?v=wYYzteRKU7U
+        "Video: Details 2": https://www.youtube.com/watch?v=Umpt43ZzmqM
     Hangman:
         Implement Hangman: /problems/hangman
