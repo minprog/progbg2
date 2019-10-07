@@ -75,11 +75,9 @@ modules:
         - resize_more
         - recover
     m3:
-        - speller
-    m4:
         - scores_less
         - tweet
-    m5:
+    m4:
         - hangman
 
 calculation:
