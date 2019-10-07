@@ -48,6 +48,9 @@ grades:
     resize_more: *fullyauto
     recover: *fullyauto
     speller: *fullyauto
+    scores_less: *fullyauto
+    tweet: *fullyauto
+    hangman: *fullyauto
     m0: *manual
     m1: *manual
     m2: *manual
@@ -73,6 +76,11 @@ modules:
         - recover
     m3:
         - speller
+    m4:
+        - scores_less
+        - tweet
+    m5:
+        - hangman
 
 calculation:
     final:
