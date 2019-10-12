@@ -57,3 +57,8 @@ Module 4:
         "Video: Details 2": https://www.youtube.com/watch?v=Umpt43ZzmqM
     Hangman:
         Implement Hangman: /problems/hangman
+Module 5:
+    Overview & Grading: /overviews/adventure
+    "Implement either of:":
+        Adventure: /problems/adventure-less
+        Adventure (Hacker): /problems/adventure-more

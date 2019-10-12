@@ -17,7 +17,6 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 - alle videocolleges kijkt,
 - alle laptopcolleges bijwoont,
 - alle opdrachten volledig uitgewerkt instuurt,
-- alle toetsjes maakt en haalt, en
 - het tentamen maakt en haalt.
 
 
@@ -48,15 +47,14 @@ Op basis van bovenstaand schema is de maximumscore voor deze cursus 35 punten (7
 
 Elke module moet op de vooraf bepaalde deadline ingeleverd zijn. Een voorlopig schema van deadlines vind je hieronder. Alle deadlines zijn om 23:59 op de genoemde datum.
 
-| deadline | parttime  |
-| ---------| --------- |
-| Module 0 | vr  6 sep |
-| Module 1 | vr 13 sep |
-| Module 2 | vr 20 sep |
-| Module 3 | vr 27 sep |
-| Module 4 | vr  4 okt |
-| Module 5 | vr 11 okt |
-| Module 6 | vr 18 okt |
+| deadline | parttime               |  
+| -------- | ---------------------- |  
+| Module 0 | vr  6 sep              |  
+| Module 1 | vr 13 sep              |  
+| Module 2 | vr 27 sep (uitgesteld) |  
+| Module 3 | vr  4 okt              |  
+| Module 4 | vr 11 okt              |  
+| Module 5 | vr 18 okt              |  
 
 In het geval van planningsproblemen of ziekte is het mogelijk de deadline met 1 tot 3 dagen op te schuiven, in ruil voor een bescheiden puntenaftrek. Dit gaat volledig automatisch bij later inleveren en hoeft dus in beginsel niet gemeld te worden. Toch is het verstandig om je docent aan te spreken om te overleggen of advies te vragen over het halen van verdere deadlines.
 
@@ -82,13 +80,6 @@ Tijdens de practicumuren kun je terecht voor het werken aan je opdrachten, uitwi
 - donderdag 15--17 uur in G3.02
 
 Het is verplicht minimaal één keer per week een practicum bij te wonen.
-
-
-## Toetsjes
-
-**Toetsjes vinden mogelijk nog in latere weken plaats. Het idee is dat je hiermee een deel van het tentamen al binnensleept. Mocht er geen toetsje meer plaatsvinden dan is er een "normaal" tentamen.**
-
-Regelmatig vinden toetsjes plaats waarin de stof van de vorige weken wordt herhaald en scherper gemaakt. Alle toetsjes moeten gehaald worden om de cursus te voltooien, maar alle toetsjes kunnen zonodig binnen enkele dagen herkanst worden. Meer informatie krijg je bij het afnemen van de toetsjes.
 
 
 ## Tentamen
