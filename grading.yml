@@ -51,6 +51,8 @@ grades:
     scores_less: *fullyauto
     tweet: *fullyauto
     hangman: *fullyauto
+    adventure-less: *fullyauto
+    adventure-more: *fullyauto
     m0: *manual
     m1: *manual
     m2: *manual
@@ -79,6 +81,9 @@ modules:
         - tweet
     m4:
         - hangman
+    m5:
+        - adventure-less
+        - adventure-more
 
 calculation:
     final:
