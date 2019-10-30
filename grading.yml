@@ -23,8 +23,6 @@ templates:
         hide_calculated: true
 
 grades:
-    hello: *fullyauto
-    water: *fullyauto
     initials_less: *fullyauto
     initials_more: *fullyauto
     caesar: *fullyauto

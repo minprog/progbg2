@@ -1,8 +1,0 @@
-name: scratch
-url: true
-files:
-    required:
-        - scratch_file.sb3
-check:
-    tool: check50v2
-    slug: scratch@minprog/checks
