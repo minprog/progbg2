@@ -83,7 +83,7 @@ modules:
 
 calculation:
     final:
-        tests: 0
+        tentamens: 0
         mods: 100
 # resit:
 #     tests: 0
@@ -91,21 +91,15 @@ calculation:
 
 mods:
     submits:
-        m0: 0
+        m0: 1
         m1: 1
         m2: 1
         m3: 1
         m4: 1
         m5: 1
 
-tests:
-    required: true
+tentamens:
+    exam: true
+    minimum: 5.5
     submits:
-        t1: 1
-        t2: 1
-        t3: 1
-        t4: 1
-        t5: 1
-        t6: 1
-        t7: 1
-        t8: 1
+        tentamen: 1
