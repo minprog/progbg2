@@ -82,7 +82,7 @@ modules:
         - adventure-more
 
 calculation:
-    final:
+    eindcijfer:
         tentamens: 0
         mods: 100
 # resit:
