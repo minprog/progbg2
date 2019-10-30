@@ -18,7 +18,7 @@ templates:
         type: pass
         subgrades:
             gehaald: integer
-        calculation: passed
+        calculation: gehaald
         is_test: true
         hide_calculated: true
 
