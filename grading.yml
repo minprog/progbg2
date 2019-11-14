@@ -88,7 +88,7 @@ calculation:
         mods: 100
     her-cijfer:
         hertentamens: 0
-        modules: 100
+        mods: 100
 
 mods:
     submits:
