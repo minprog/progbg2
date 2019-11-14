@@ -55,6 +55,7 @@ grades:
     m5: *manual
     
     tentamen: *test
+    hertentamen: *test
 
 modules:
     m0:
@@ -85,9 +86,9 @@ calculation:
     eindcijfer:
         tentamens: 0
         mods: 100
-# resit:
-#     tests: 0
-#     modules: 100
+    her-cijfer:
+        hertentamens: 0
+        modules: 100
 
 mods:
     submits:
@@ -102,3 +103,8 @@ tentamens:
     exam: true
     submits:
         tentamen: 1
+
+hertentamens:
+    exam: true
+    submits:
+        hertentamen: 1
