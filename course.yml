@@ -1,10 +1,12 @@
-name: C+Py voor BG
-short_name: CenPy
-language: en
+long_name: Programmeren voor BG
+short_name: Py2 BG
+language: nl
 
 links:
-    "<i class='fa fa-book'></i> CS50 Reference": https://man.cs50.io/
-    "<i class='fa fa-server'></i> CS50 IDE": https://ide.cs50.io/
+    '[diagram-3] Steps': /steps
+    '[terminal] IDE': https://ide.cs50.io/
+    '[question-square] Ed': https://us.edstem.org/courses/2328
+    '[book] Reference': https://man.cs50.io/
 
 acknowledgements:
     - 'Based on CS50 from http://cs50.tv/2017/fall/ -- Copyright 2011--2018, David J. Malan.'

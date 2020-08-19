@@ -1,64 +1,13 @@
 Module 0:
-    Overview & Grading: /overviews/crypto
-    "Lecture: C": /lectures/c
-    Hello:
-        Create a GitHub account: https://github.com/join
-        Implement Hello: https://lab.cs50.io/uva/cs50x/master/problems/hello/
-    Water:
-        Create your own CS50 IDE: https://ide.cs50.io/
-        Learn about the Command Line: /shorts/command-line
-        Implement Water: /problems/water
-    "Lecture: Arrays": /lectures/arrays
-    Initials:
-        "Implement either of:":
-            Initials: /problems/initials-less
-            Initials (hacker): /problems/initials-more
-    Caesar:
-        Implement Caesar: /problems/caesar
-    Vigenere:
-        "Implement either  of:":
-            Vigenere: /problems/vigenere
-            Crack (hacker): /problems/crack
 Module 1:
-    Overview & Grading: /overviews/fifteen
-    "Lecture: Tools": /lectures/tools
-    "Lecture: Algorithms": /lectures/algorithms
-    Find:
-        "Implement either of:":
-            Find: /problems/find-less
-            Find (hacker): /problems/find-more
-    Fifteen:
-        Implement Fifteen: /problems/fifteen
+  - complexity
 Module 2:
-    Overview & Grading: /overviews/forensics
-    "Lecture: Memory": /lectures/memory
-    Whodunit:
-        Implement Whodunit: /problems/whodunit
-    Resize:
-        "Implement either of:":
-            Resize: /problems/resize-less
-            Resize (hacker): /problems/resize-more
-    Recover:
-        Implement Recover: /problems/recover
+  - news
 Module 3:
-    Overview & Grading: /overviews/python
-    Implement Scores: /problems/scores-less
-    Implement Tweet: /problems/tweet
+  - survival
 Module 4:
-    Overview & Grading: /overviews/hangman
-    Preparation:
-        "Video: Main ideas": https://www.lynda.com/Python-tutorials/Object-oriented-thinking/731735/5002881-4.html
-        "Video: Basics": https://www.youtube.com/watch?v=apACNr7DC_s
-    Game of Cards:
-        Register at GitHub: https://github.com/join
-        Implmenent Game of Cards: https://lab.cs50.io/minprog/programmeren-2/master/problems/cards/lab
-    More preparation:
-        "Video: Details 1": https://www.youtube.com/watch?v=wYYzteRKU7U
-        "Video: Details 2": https://www.youtube.com/watch?v=Umpt43ZzmqM
-    Hangman:
-        Implement Hangman: /problems/hangman
+  - python
 Module 5:
-    Overview & Grading: /overviews/adventure
-    "Implement either of:":
-        Adventure: /problems/adventure-less
-        Adventure (Hacker): /problems/adventure-more
+  - hangman
+Module 6:
+  - adventure
