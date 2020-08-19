@@ -22,6 +22,15 @@ Bovendien is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. D
 Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen.
 
 
+## Team en mentor
+
+Je zit bij dit vak in een team met XX andere studenten. In het team zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De **teamindeling** wordt na de eerste deadline bekend gemaakt. 
+
+Je **mentor** is een ervaren student of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden. Je ontvangt van je mentor een uitnodiging voor een chatomgeving (Slack) waar je gedurende de week contact kunt onderhouden met je team.
+
+Met je mentor heb je elke week een **werkgroep** waar alle teamleden (met video) aan deelnemen. Via Slack zal je mentor laten weten wanneer de eerste online-werkgroep is, waar je kennis maakt met je team. Als je een probleem ziet met het gebruik van een webcam dan moet je vooraf contact opnemen met de docenten om een oplossing te verzinnen, omdat je anders niet kunt meedoen.
+
+
 ## Eindcijfer
 
 Bij deze cursus wordt je cijfer bepaald door de uitwerkingen van programmeeropdrachten. De opdrachten zijn verdeeld over modules, die als volgt meewegen:
