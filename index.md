@@ -28,7 +28,6 @@ Bij deze cursus wordt je cijfer bepaald door de uitwerkingen van programmeeropdr
 
 | onderdeel | telt mee |  
 | --------- | -------- |  
-| Module 0  | 0%       |  
 | Module 1  | 20%      |  
 | Module 2  | 20%      |  
 | Module 3  | 20%      |  
@@ -55,12 +54,6 @@ Iedere week tijdens de werkgroepen neemt je mentor het initiatief om te kijken w
 ## Vragen stellen
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
-
-**Slack:** direct contact met je team.
-
-- onderlinge support
-- snelle vragen over deadlines, contact met samenwerkpartner
-- mentor is niet doorlopend beschikbaar!
 
 **Ed:** altijd beschikbaar, de belangrijkste plek voor hulp.
 
@@ -107,17 +100,15 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 
 | onderdeel | deadline oplossing | deadline verbeterd |
 | --------- | ------------------ | ------------------ |
-| Module 0  | wo  9 sep  17:59   | vr 11 sep  20:59   |
-| Module 1  | wo 16 sep  17:59   | vr 18 sep  20:59   |
-| Module 2  | wo 23 sep  17:59   | vr 25 sep  20:59   |
-| Module 3  | wo 30 sep  17:59   | vr  2 okt  20:59   |
-| Module 4  | wo  7 okt  17:59   | vr  9 okt  20:59   |
+| Module 1  | wo  9 sep  17:59   | vr 11 sep  20:59   |
+| Module 2  | wo 16 sep  17:59   | vr 18 sep  20:59   |
+| Module 3  | wo 23 sep  17:59   | vr 25 sep  20:59   |
+| Module 4  | wo 30 sep  17:59   | vr  2 okt  20:59   |
+| Module 5  | wo  7 okt  17:59   | vr  9 okt  20:59   |
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
 In het geval van planningsproblemen of een dag ziek zijn kun je in overleg met je mentor de deadline één of twee dagen opschuiven. Je opdracht wordt dan gewoon nagekeken. Breng altijd direct je mentor op de hoogte en vraag om advies over het halen van verdere deadlines. Systematisch achterlopen is niet mogelijk.
-
-Voor module 0 is geen uitstel mogelijk. Je moet op tijd gestart zijn met het vak om mee te mogen doen.
 
 Nog later ingeleverd werk kan normaliter niet geaccepteerd worden, behalve in medische noodgevallen. Dat betekent dat je het vak niet kunt halen als je het tempo echt niet bijhoudt. Denk je dat dat gaat gebeuren, vraag dan meteen advies aan de docenten via <help@mprog.nl>. Vaak zijn er nog wel oplossingen te verzinnen.
 
