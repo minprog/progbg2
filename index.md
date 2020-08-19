@@ -1,4 +1,4 @@
-# Fulltime Programmeren 1
+# Python zonder C voor Beta-gamma
 
 ## Studiewijzer<br><small>Herfst 2020</small>
 
