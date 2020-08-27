@@ -242,8 +242,8 @@ code, run it, and analyse the output:
                sum_of_grades += grade
            return sum_of_grades
 
-- debugger: You can also use a debugger to step through your code, see
-how it executes and see how values get changed:
+- debugger: You can also use a debugger to step through your code, to see
+how it executes and see how values are changing, for example with 'pgd':
 
   <https://www.youtube.com/watch?v=ChuU3NlYRLQ>
 
@@ -255,12 +255,12 @@ how it executes and see how values get changed:
   words. That way you can easily check each iteration and know what
   the right output should be. You can incrementally make your test set
   harder as you write more code. Think about what the most difficult
-  input would be (possible edge cases?) and incrementally add those in
-  your test set.
+  input to your program would be (possible edge cases?) and
+  incrementally add those in your test set.
 
 ## Recursion
 
-Recursion is a powerful tool that allows you to solve some complex
+Recursion is a powerful tool that can help you to solve some complex
 problems in only a few lines of code. A recursive function is a
 function that calls itself, we will look at some examples.
 
