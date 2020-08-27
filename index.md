@@ -10,25 +10,20 @@ Je docenten zijn Bas Terwijn en Martijn Stegeman (coördinator).
 Bij dit vak wordt van je verwacht dat je:
 
 1. alle opdrachten in stappen maakt zoals beschreven onder [werkwijze](#werkwijze)
-2. alle [werkgroepen](#werkgroepen) bijwoont
+2. wekelijks minstens één [werkcollege](#werkgroepen) bijwoont
 
 Bovendien is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
-4. dagelijks vragen stellen of beantwoorden op [Ed](#vragen-stellen)
-5. goed voorbereid naar de [werkgroepen](#werkgroepen) komen
-6. laag scoren op de ["plagiaatschaal"](#plagiaat)
-{: start="4"}
+3. regelmatig vragen stellen en hulp vragen
+4. laag scoren op de ["plagiaatschaal"](#plagiaat)
+{: start="3"}
 
-Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen.
+Op die manier kunnen je docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen.
 
 
-## Team en mentor
+## Begeleiding
 
-Je zit bij dit vak in een team met XX andere studenten. In het team zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code. De **teamindeling** wordt na de eerste deadline bekend gemaakt. 
-
-Je **mentor** is een ervaren student of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden. Je ontvangt van je mentor een uitnodiging voor een chatomgeving (Slack) waar je gedurende de week contact kunt onderhouden met je team.
-
-Met je mentor heb je elke week een **werkgroep** waar alle teamleden (met video) aan deelnemen. Via Slack zal je mentor laten weten wanneer de eerste online-werkgroep is, waar je kennis maakt met je team. Als je een probleem ziet met het gebruik van een webcam dan moet je vooraf contact opnemen met de docenten om een oplossing te verzinnen, omdat je anders niet kunt meedoen.
+Bas Terwijn is de vaste docent van dit vak. Hij helpt je wegwijs maken, denkt mee hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden. Je kunt hem bij de start van elk werkcollege vinden in een plenaire videosessie (zie mededelingen voor de link). Daarnaast helpt hij je op aanvraag tijdens deze sessies.
 
 
 ## Eindcijfer
@@ -44,33 +39,32 @@ Bij deze cursus wordt je cijfer bepaald door de uitwerkingen van programmeeropdr
 | Module 4  |      20% |  
 | Module 5  |      20% |  
 
-Je moet aan alle bovenstaande verwachtingen voldoen om een cijfer te krijgen voor het vak, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <help@mprog.nl>).
+Je moet aan alle bovenstaande verwachtingen voldoen om een cijfer te krijgen voor het vak, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <progbg@mprog.nl>).
 
 Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen.
 
 
 ## Werkwijze
 
-In dit vak ga je verreweg de meeste tijd besteden aan het oplossen van programmeerproblemen. Het vak bestaat uit vijf modules die weer bestaan uit enkele opdrachten. Je werkt in fases aan de opdrachten:
+In dit vak ga je verreweg de meeste tijd besteden aan het oplossen van programmeerproblemen. Het vak bestaat uit modules die weer bestaan uit enkele opdrachten. Je werkt in fases aan de opdrachten:
 
-1. ontwerp een oplossing voor een opdracht, samen met een partner uit je team
-2. ontwerp en implementeer deze oplossing, zonder partner, maar met allerlei mogelijkheden om hulp te krijgen
-3. review met een partner uit je team elkaars uitwerkingen, en verbeter je eigen code
-4. ontvang je beoordeling en schrijf een reflectie
+1. ontwerp en implementeer deze oplossing voor de opdracht
+2. review met een partner elkaars uitwerkingen, en verbeter je eigen code
+3. ontvang je beoordeling en schrijf een reflectie
 
-Iedere week tijdens de werkgroepen neemt je mentor het initiatief om te kijken wie gaat samenwerken en met welke partner. Voor de reviews in fase 3 maakt je mentor een roulerende indeling. Zo doe je ervaring op met verschillende manieren om de opdrachten uit te werken en met verschillende ideeën rondom goede stijl.
+Voor de reviews wordt een roulerende indeling aangehouden. Zo doe je ervaring op met verschillende manieren om de opdrachten uit te werken en met verschillende ideeën rondom goede stijl.
 
 
 ## Vragen stellen
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
-**Ed:** altijd beschikbaar, de belangrijkste plek voor hulp.
+<!-- **Ed:** altijd beschikbaar, de belangrijkste plek voor hulp.
 
 - vragen over wat er in de opdracht bedoeld wordt
 - technische vragen over programmeren en bugs
 - vragen over de oefeningen in het basisboek
-- medestudenten en assistenten denken mee
+- medestudenten en assistenten denken mee -->
 
 **Assistentie:** direct met een assistent, voor moeilijk te stellen vragen.
 
@@ -86,7 +80,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - hele nare bugs
 - aanmelden via [Calendly](https://calendly.com/proglab/helpdesk)
 
-**Mail:** contact met de vakcoördinatoren via <help@mprog.nl>.
+**Mail:** contact met de vakcoördinatoren via <progbg@mprog.nl>.
 
 - maken van persoonlijke planningsafspraken
 - meedenken over grote problemen met het vak
@@ -119,23 +113,22 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
-In het geval van planningsproblemen of een dag ziek zijn kun je in overleg met je mentor de deadline één of twee dagen opschuiven. Je opdracht wordt dan gewoon nagekeken. Breng altijd direct je mentor op de hoogte en vraag om advies over het halen van verdere deadlines. Systematisch achterlopen is niet mogelijk.
+In het geval van planningsproblemen of een dag ziek zijn kun je in overleg met de docent de deadline één of twee dagen opschuiven. Je opdracht wordt dan gewoon nagekeken. Breng altijd direct je docent op de hoogte en vraag om advies over het halen van verdere deadlines. Systematisch achterlopen is niet mogelijk.
 
-Nog later ingeleverd werk kan normaliter niet geaccepteerd worden, behalve in medische noodgevallen. Dat betekent dat je het vak niet kunt halen als je het tempo echt niet bijhoudt. Denk je dat dat gaat gebeuren, vraag dan meteen advies aan de docenten via <help@mprog.nl>. Vaak zijn er nog wel oplossingen te verzinnen.
+Nog later ingeleverd werk kan normaliter niet geaccepteerd worden, behalve in medische noodgevallen. Dat betekent dat je het vak niet kunt halen als je het tempo echt niet bijhoudt. Denk je dat dat gaat gebeuren, vraag dan meteen advies aan de docenten via <progbg@mprog.nl>. Vaak zijn er nog wel oplossingen te verzinnen.
 
 Raak je helemaal uit tempo? Dan kun je overwegen om de stap naar Parttime te zetten. Het is belangrijk dat je dit snel bespreekt met een docent. Ook hierover kunnen zij je adviseren.
 </details>
 
-<details markdown="1"><summary markdown="span">Wat als ik al klaar ben?</summary>
+<!--<details markdown="1"><summary markdown="span">Wat als ik al klaar ben?</summary>
 
 Als je toch al vrij veel ervaring hebt of het programmeren ligt je gewoon heel lekker, dan is het de bedoeling dat je in de resterende tijd via Ed andere studenten helpt met hun vragen. Ook kun je afspreken met studenten uit je team als zij hulp nodig hebben. Let daarbij wel goed op de regels voor [samenwerken](#samenwerken). Andere studenten helpen is één van de [verwachtingen](#verwachtingen) voor het halen van dit vak, dus neem de taak serieus.
-</details>
+</details> -->
 
 
 ## Cijfers
 
-Modules 1 t/m 5 kunnen elk 0--6 punten opleveren. Voor elke module zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald.
-De aspecten gaan over *codekwaliteit*, waarover je in module 1 meer leert. De schaal is als volgt:
+Modules 1 t/m 5 kunnen elk 0--6 punten opleveren. De schaal is als volgt:
 
 6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
 5. zeer goede kwaliteit, beperkt ruimte voor verbetering
@@ -145,6 +138,8 @@ De aspecten gaan over *codekwaliteit*, waarover je in module 1 meer leert. De sc
 1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
 0. niet genoeg code om te beoordelen
 {: start="6" reversed=""}
+
+De genoemde aspecten zijn de aspecten uit de [style guide](/style).
 
 <!-- Bij later inleveren voor de **oplossingsdeadline** geldt de volgende aftrek:
 
@@ -162,7 +157,7 @@ Het eindcijfer voor deze cursus wordt bepaald door het totaal aantal punten voor
 
 De basis van alles wat je inlevert moet jouw eigen intellectueel werk zijn, tenzij anders aangegeven in een opdracht.
 
-Natuurlijk is het nuttig om **interactie** te hebben met je medestudenten en dat dit kan helpen bij het beheersen van de stof. Nog sterker, we stimuleren dit door je te vragen samen een ontwerp te maken van je programma's vóórdat je ze zelfstandig implementeert. Maar er is een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hier karakteriseren we beide kanten van die grens.
+Natuurlijk is het nuttig om **interactie** te hebben met je medestudenten en dat dit kan helpen bij het beheersen van de stof. Maar er is een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hier karakteriseren we beide kanten van die grens.
 
 Je mag niet samenwerken aan de **implementatie** van je programma's. Uitzondering is dat je medestudenten om hulp mag vragen, zolang dat er niet op neer komt dat een ander een deel van het werk voor jou doet. Over het algemeen mag je, als je om hulp vraagt, jouw code laten zien, maar kijk je niet naar de code van een ander. Je laat je dus ook niks voorzeggen.
 
