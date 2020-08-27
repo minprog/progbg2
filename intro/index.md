@@ -27,7 +27,7 @@ And to deactive it type:
 
     $ deactivate
 
-To make sure this python3 environment is always activated when you
+To make sure on Ubuntu this python3 environment is always activated when you
 start a shell, so you won't forget, you can add the activation to your
 Bash startup file (.bashrc) by once running:
 
@@ -75,10 +75,10 @@ When you use a value it is important to know its type
 because expressions behave differently for different types:
 
     >>> my_var = 42
-    >>> print( my_var+my_var )
+    >>> print( my_var + my_var )
     84
     >>> my_var = "hello"
-    >>> print( my_var+my_var )
+    >>> print( my_var + my_var )
     hellohello
 
 Sometimes it is unclear what type a value has, for example the value
@@ -171,7 +171,7 @@ will never have to look at it again after you pass this course.
          sum_of_grades = 0
          for grade in grades:
              sum_of_grades += grade
-         average_grade = sum_of_grades/len(grades)
+         average_grade = sum_of_grades / len(grades)
          return average_grade>5
 
       # bad, does 3 things: compute sum, compute average, test
@@ -185,7 +185,7 @@ will never have to look at it again after you pass this course.
          return sum_of_grades
 
       def average_grade(grades):
-         return sum_of_grades(grades)/len(grades)
+         return sum_of_grades(grades) / len(grades)
      
       def is_average_grade_above_5(grades):  # good
          return average_grade(grades) > 5
@@ -205,15 +205,15 @@ will never have to look at it again after you pass this course.
   after writing it:
 
       def in_between(x,min,max):  # bad
-          result=True
-          if x<min:
-             result=False
-          if x>max:
-             result=False
+          result= True
+          if x < min:
+             result = False
+          if x > max:
+             result = False
           return result
 
       def in_between(x,min,max):  # good
-          return x>=min and x<=max
+          return x >= min and x <= max
   
 ## Debugging
 
@@ -236,7 +236,7 @@ code, run it, and analyse the output:
       def sum_of_grades(grades): 
            sum_of_grades = 0
            for grade in grades:
-               print("sum_of_grades:",sum_of_grades)  # temporary print
+               print("sum_of_grades:", sum_of_grades)  # temporary print
                sum_of_grades += grade
            return sum_of_grades
 
@@ -244,7 +244,6 @@ code, run it, and analyse the output:
 how it executes and see how values get changed:
 
   <https://www.youtube.com/watch?v=ChuU3NlYRLQ>
-
 
 - test set: Make a small test set to easily test with. For example if
   you want to count how many times each words occurs in a large text
@@ -269,15 +268,16 @@ The factorial function can be defined iteratively as:
 
     factorial(n) = 1*2*3*...*n
 
-for example the factorial of 4 is 1*2*3*4 = 24 and we can write an
-iterative python program to compute the factorial like so:
+for example the factorial of 4 is 1 x 2 x 3 x 4 = 24 and we can write
+an iterative python program to compute the factorial like so:
 
     def factorial(n):
         result=1
-        for i in range(1,n+1):
-            result*=i
+        for i in range(1, n+1):
+            result *= i
         return result
-    factorial(4)
+        
+    print( factorial(4) ) # 24
 
 Because we use a for-loop in our implementation to do all the work we
 call this an iterative implementation. But we can also use a recursive
@@ -310,12 +310,12 @@ unless there is a stop condition, also called 'base case'. The stop
 condition here is "n==1" because the factorial of 1 is 1 and we don't
 need to continue further.
 
-### Assignment: multiply
+## Assignment: multiply
 
-Write a recursive multiply(a,b) python function that multiplies
-integer 'a' with integer 'b' without for/while loops and without using
-the '*' operator but instead by using recursion and repeated addition
-(a+a+a+...). A recursive definition for multiply is:
+Write recursive function multiply(a,b) that multiplies integer 'a'
+with integer 'b' without using for/while loops and without using the
+'*' operator but instead by repeated addition. A recursive definition
+for multiply is:
 
     multiple(a,0) = 0
     multiple(a,n) = multiple(a,n-1)+a
@@ -335,7 +335,7 @@ For function factorial() we can either make an iterative or a
 recursive implementation, but there are problems where only a
 recursive implementation can be used. For example printing all
 possible lists of length 3 with elements 'a' and 'b' can be
-surprisingly easily implemented with recursion as:
+surprisingly easily implemented with use of recursion as:
 
     def print_all_lists(list, n, elements):
         if n==0:                     # stop condition
@@ -348,10 +348,10 @@ surprisingly easily implemented with recursion as:
     
     print_all_lists([], 3, ['a','b'])
 
-Execute the program and see what happens when you print all lists up
-to length 4 or add another element 'c'.
+Execute the program and see what happens when you print all lists of
+length 4 or add another element 'c'.
 
-The execution can be visualized as:
+The evaluation can be visualized as:
 
 ![](recursive_list.png)
 
@@ -365,7 +365,7 @@ removed, and the next option 'b' is selected at level 3.
 completes. Now we are back in the for-loop of level 2 and select next
 option 'b' and option 'a' in a new for-loop at level 3.
 
-This process continues until the for-loop in level 1 is
+This process continues until the first for-loop in level 1 is
 completed. Notice that our list is of a mutable type so there is only
 one list that is shared by all the levels.
 
@@ -384,4 +384,4 @@ implement recursive function print_paths():
 
 so that it prints all valid paths from 'A' to destination 'E'. A path
 it valid if it visits each node at most once. The correct number of
-possible path is 13 to check your answer.
+possible path is 13 (to check your answer).
