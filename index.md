@@ -36,12 +36,13 @@ Met je mentor heb je elke week een **werkgroep** waar alle teamleden (met video)
 Bij deze cursus wordt je cijfer bepaald door de uitwerkingen van programmeeropdrachten. De opdrachten zijn verdeeld over modules, die als volgt meewegen:
 
 | onderdeel | telt mee |  
-| --------- | -------- |  
-| Module 1  | 20%      |  
-| Module 2  | 20%      |  
-| Module 3  | 20%      |  
-| Module 4  | 20%      |  
-| Module 5  | 20%      |  
+| --------- | -------: |
+| Module 0  |       0% |  
+| Module 1  |      20% |  
+| Module 2  |      20% |  
+| Module 3  |      20% |  
+| Module 4  |      20% |  
+| Module 5  |      20% |  
 
 Je moet aan alle bovenstaande verwachtingen voldoen om een cijfer te krijgen voor het vak, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar <help@mprog.nl>).
 
@@ -53,7 +54,7 @@ Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je j
 In dit vak ga je verreweg de meeste tijd besteden aan het oplossen van programmeerproblemen. Het vak bestaat uit vijf modules die weer bestaan uit enkele opdrachten. Je werkt in fases aan de opdrachten:
 
 1. ontwerp een oplossing voor een opdracht, samen met een partner uit je team
-2. implementeer deze oplossing, zonder partner, maar met allerlei mogelijkheden om hulp te krijgen
+2. ontwerp en implementeer deze oplossing, zonder partner, maar met allerlei mogelijkheden om hulp te krijgen
 3. review met een partner uit je team elkaars uitwerkingen, en verbeter je eigen code
 4. ontvang je beoordeling en schrijf een reflectie
 
@@ -109,11 +110,12 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 
 | onderdeel | deadline oplossing | deadline verbeterd |
 | --------- | ------------------ | ------------------ |
-| Module 1  | wo  9 sep  17:59   | vr 11 sep  20:59   |
-| Module 2  | wo 16 sep  17:59   | vr 18 sep  20:59   |
-| Module 3  | wo 23 sep  17:59   | vr 25 sep  20:59   |
-| Module 4  | wo 30 sep  17:59   | vr  2 okt  20:59   |
-| Module 5  | wo  7 okt  17:59   | vr  9 okt  20:59   |
+| Module 0  | wo  9 sep  17:59   | vr 11 sep  20:59   |
+| Module 1  | wo 16 sep  17:59   | vr 18 sep  20:59   |
+| Module 2  | wo 23 sep  17:59   | vr 25 sep  20:59   |
+| Module 3  | wo 30 sep  17:59   | vr  2 sep  20:59   |
+| Module 4  | wo  7 okt  17:59   | vr  9 okt  20:59   |
+| Module 5  | wo 14 okt  17:59   | vr 16 okt  20:59   |
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 

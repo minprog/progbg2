@@ -337,12 +337,12 @@ one list that is shared by all the levels.
 ![](graph.png)
 
 Given the graph in figure <graph.png>. Implement recursive function
-print_paths(): 
+`print_paths()`:
 
-def print_paths(path, destination, edges):
-    print("path: ",path)
+    def print_paths(path, destination, edges):
+        print("path: ",path)
 
-print_paths(['A'],'E',[ ('A','B'), ('A','D'), ('B','C'), ('B','D'), ('C','E'), ('C','F'), ('C','D'), ('D','F'), ('E','F') ])
+    print_paths(['A'],'E',[ ('A','B'), ('A','D'), ('B','C'), ('B','D'), ('C','E'), ('C','F'), ('C','D'), ('D','F'), ('E','F') ])
 
 so that it prints all valid paths from 'A' to destination 'E'. A path
 it valid if it visits each node at most once. The correct number of
