@@ -66,12 +66,11 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 - vragen over de oefeningen in het basisboek
 - medestudenten en assistenten denken mee -->
 
-**Assistentie:** direct met een assistent, voor moeilijk te stellen vragen.
+**Werkcollege:** directe hulp met open vragen.
 
-- weet niet waar te beginnen
-- onvindbare bug
-- moeite met verzinnen oplossing (met partner)
-- dagelijks 13-17 uur, wachttijd kan oplopen
+- je weet niet waar te beginnen
+- je hebt een onvindbare bug
+- je hebt moeite met verzinnen van een oplossing
 
 **Helpdesk:** direct met een assistent, voor technische problemen.
 
