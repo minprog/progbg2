@@ -305,12 +305,11 @@ We can write a recursive python implementation as:
         return factorial(n-1)*n  # function calling itself
     factorial(4)
 
-A recursive function is a function that is calling itself like
-factorial(n) does instead of using a loop. A function calling itself
-will keep calling itself until the program crashes with an error
-unless there is a stop condition, also called 'base case'. The stop
-condition here is "n==1" because the factorial of 1 is 1 and we don't
-need to continue further.
+A recursive function is a function that is calling itself instead of
+using a loop. A function calling itself will keep calling itself until
+the program crashes with an error unless there is a stop condition,
+also called 'base case'. The stop condition here is "n==1" because the
+factorial of 1 is 1 and we don't need to continue further.
 
 ## Assignment: multiply
 
@@ -322,7 +321,7 @@ for multiply is:
     multiple(a,0) = 0
     multiple(a,n) = multiple(a,n-1)+a
 
-example evaluation:
+an example evaluation is:
 
                  multiple(4,3)
             multiple(4,2) + 4
@@ -337,7 +336,7 @@ For function factorial() we can either make an iterative or a
 recursive implementation, but there are problems where only a
 recursive implementation can be used. For example printing all
 possible lists of length 3 with elements 'a' and 'b' can be
-surprisingly easily implemented with use of recursion as:
+surprisingly easily implemented with use of recursion:
 
     def print_all_lists(list, n, elements):
         if n==0:                     # stop condition
@@ -363,13 +362,13 @@ levels.
 - After the first print the function returns, the last choice is
 removed, and the next option 'b' is selected at level 3.
 
-- The function returns and removes twice as the for-loop in level 3
+- Then function returns and removes twice as the for-loop in level 3
 completes. Now we are back in the for-loop of level 2 and select next
-option 'b' and option 'a' in a new for-loop at level 3.
+option 'b' and then option 'a' in a new for-loop at level 3.
 
 This process continues until the first for-loop in level 1 is
 completed. Notice that our list is of a mutable type so there is only
-one list that is shared by all the levels.
+one list that is shared by all levels, hence the pop() function.
 
 ## Assignment: path finding
 
