@@ -331,11 +331,11 @@ example evaluation:
 
 ### Print all lists
 
-For function factorial() we can either make an iterative or a recursive
-implementation, but there are also problems where only a recursive
-implementation can be used. For example printing all possible lists
-with length 3 with elements 'a' and 'b' can be easily recursively
-implemented like:
+For function factorial() we can either make an iterative or a
+recursive implementation, but there are problems where only a
+recursive implementation can be used. For example printing all
+possible lists of length 3 with elements 'a' and 'b' can be
+surprisingly easily implemented with recursion as:
 
     def print_all_lists(list, n, elements):
         if n==0:                     # stop condition
@@ -349,8 +349,9 @@ implemented like:
     print_all_lists([], 3, ['a','b'])
 
 Execute the program and see what happens when you print all lists up
-to length 4 or add another element 'c'. The execution can be
-visualized as:
+to length 4 or add another element 'c'.
+
+The execution can be visualized as:
 
 ![](recursive_list.png)
 
