@@ -1,8 +1,8 @@
-# Python zonder C voor Beta-gamma
+# Python (zonder C)<br>voor Beta-gamma
 
 ## Studiewijzer<br><small>Herfst 2020</small>
 
-Je docenten zijn Bas Terwijn en Martijn Stegeman (coördinator).
+Docenten: Bas Terwijn en Martijn Stegeman (coördinator)
 
 
 ## Verwachtingen
@@ -10,7 +10,7 @@ Je docenten zijn Bas Terwijn en Martijn Stegeman (coördinator).
 Bij dit vak wordt van je verwacht dat je:
 
 1. alle opdrachten in stappen maakt zoals beschreven onder [werkwijze](#werkwijze)
-2. wekelijks minstens één [werkcollege](#werkgroepen) bijwoont
+2. wekelijks minstens één werkcollege bijwoont (zie rooster)
 
 Bovendien is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
