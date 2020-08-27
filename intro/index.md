@@ -231,8 +231,8 @@ it, and analyse the output:
 - debugger: You can also use a debugger to step through your code, see how it
 executes and see how values get changed:
 
-<debugger link> <https://www.youtube.com/watch?v=ChuU3NlYRLQ>
-(I could not yet find an easily usable graphical python debugger)
+  <https://www.youtube.com/watch?v=ChuU3NlYRLQ>
+  (I could not yet find an easily usable graphical python debugger)
 
 - test set: Make a small test set to easily test with. For example if
   you want to count how many times each words occurs in a large text
