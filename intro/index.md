@@ -95,13 +95,13 @@ your get from a function. In those cases you could try to:
 
 ## (im)mutable
 
-Some types like 'int' are 'immutable', meaning that the value can not
-be changed. Other types like 'list' are 'mutable', they can
-change. The difference is important, lets first look at an immutable
-type:
+Some types like 'int' are 'immutable', meaning that the value itself
+can not mutate or change in place. Other types like 'list' are
+'mutable', the value can mutate or change in place. The difference is
+important, lets first look at an immutable type:
 
     >>> v1 = 111               # 'int': immutable type
-    >>> v2 = v1
+    >>> v2 = v1                # v2 gets bound to the same value a v1
     >>> v1 += 222              # value can not mutate so v1 gets bound to a new value
     >>> print("v1: ", v1, "v2: ", v2, "   id(v1):", id(v1), "id(v2):", id(v2)  )
     v1:  333 v2:  111    id(v1): 139754131600176 id(v2): 10918016
@@ -109,35 +109,36 @@ type:
 The output is as expected, v1 is changed and v2 still has the intial
 value of 111. For mutable types this is different:
 
-    >>> v1 = [100]              # 'list': mutable type
-    >>> v2 = v1
+    >>> v1 = [111]              # 'list': mutable type
+    >>> v2 = v1                 # v2 gets bound to the same value a v1
     >>> v1.append(222)          # mutates the existing value, so also changes v2
     >>> print("v1: ", v1, "v2: ", v2, "   id(v1):", id(v1), "id(v2):", id(v2)  )
-    v1:  [100, 222] v2:  [100, 222]    id(v1): 139754131779912 id(v2): 139754131779912
+    v1:  [111, 222] v2:  [111, 222]    id(v1): 139754131779912 id(v2): 139754131779912
 
 Surprise!, v2 now has the same value a v1 even though v1 is changed
 after assignment 'v2 = v1'. This is because the assignment 'v2 = v1'
 binds variable v2 to the same value v1 is bound to. They now share the
-same value, the same memory, it is not a copy. This can also be seen
-by observing 'id(v1)' and 'id(v2)' are the same. Because it is a
-mutable type the value can be changed and a change in v1 will now also
-effect v2 and vice versa.
+same value, no copy is made. This can also be seen by observing
+'id(v1)' and 'id(v2)' are the same, they share the same
+memory. Therefore a change in v1 will now also effect v2 and vice
+versa.
 
 Sometimes you don't want this and want 'v2' to have an independent
-copy of the value of 'v1'. One way of doing this is to use function
-deepcopy():
+copy of the value of 'v1' of mutable type. One way of doing this is to
+use function deepcopy():
 
-    >>> import copy              # requires module 'copy'   
-    >>> v1 = [100]               # 'list': mutable type
+    >>> import copy              # requires module 'copy' 
+    >>> v1 = [111]               # 'list': mutable type
     >>> v2 = copy.deepcopy(v1)   # deepcopy makes an independent copy
     >>> v1.append(222)           # changes v1, but doesn't change v2
     >>> print("v1: ", v1, "v2: ", v2, "   id(v1):", id(v1), "id(v2):", id(v2)  )
-    v1:  [100, 222] v2:  [100]    id(v1): 139754131347912 id(v2): 139754131363720
+    v1:  [111, 222] v2:  [111]    id(v1): 139754131347912 id(v2): 139754131363720
 
-Now v2 is an indepentent copy of the initial value and is not effected
-by any change in v1. But keep in mind that copying large values (a list
-with many thousands of elements) can be slow and more memory is going
-to be needed, so only make an independent copy if you really need one.
+Now v2 is an indepentent copy of the value of v1 and is not effected
+by any change in v1. But keep in mind that copying large values (a
+list with many thousands of elements) can be slow and more memory is
+going to be needed, so only make an independent copy if you really
+need one.
 
 ## Readability
 
