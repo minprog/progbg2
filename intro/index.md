@@ -263,7 +263,7 @@ Recursion is a powerful tool that allows you to solve some complex
 problems in only a few lines of code. A recursive function is a
 function that calls itself, we will look at some examples.
 
-# factorial
+### factorial
 
 The factorial function can be defined iteratively as:
 
