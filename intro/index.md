@@ -3,19 +3,19 @@
 ## Python version
 
 There are different versions of Python, in this course you have to use
-version 3 or higher. To see what version you are using type in a
+version 3.5 or higher. To see what version you are using type in a
 shell/terminal:
 
     $ python --version
 
-If you have a version 3.0 or higher you can skip to the next section,
+If you have a version 3.5 or higher you can skip to the next section,
 otherwise continue reading. On some operating systems there are
-multiple versions of python available:
+multiple versions of python available, for example:
 
     $ python3 --version
 
-you can create a python environment to make sure you always use the
-correct version of python (and pip):
+You can create a python environment to always use the correct version
+of python and related tools like 'pip':
 
     $ python3 -m venv ~/python3_env
 
@@ -27,18 +27,19 @@ And to deactive it type:
 
     $ deactivate
 
-To make sure on Ubuntu this python3 environment is always activated when you
-start a shell, so you won't forget, you can add the activation to your
-Bash startup file (.bashrc) by once running:
+To make sure this python3 environment is always activated on Ubuntu
+when you start a shell (so you won't forget), you can add the
+activation to your Bash startup file by once running (this appends to
+file ~/.bashrc):
 
     $ echo -e "\n# activate python3 environment:\nsource ~/python3_env/bin/activate" >> ~/.bashrc
 
-If you are on Mac OS, you also need to add this (to .bash_profile)
-once by running:
+If you are on Mac OS, you probably also need to run this once (this
+appends to file ~/.bash_profile):
 
     $ echo -e "\n# source .bashrc:\nif [ -r ~/.bashrc ]; then\n  source ~/.bashrc\nfi" >> ~/.bash_profile
 
-Start a new shell and check if it works!, using the wrong version will
+Start a new shell and check if it works! Using an old version will
 cause problems later.
 
 ## Typing
@@ -124,8 +125,8 @@ memory. Therefore a change in v1 will now also effect v2 and vice
 versa.
 
 Sometimes you don't want this and want 'v2' to have an independent
-copy of the value of 'v1' of mutable type. One way of doing this is to
-use function deepcopy():
+copy of the value of a mutable type. One way of doing this is to use
+function deepcopy():
 
     >>> import copy              # requires module 'copy' 
     >>> v1 = [111]               # 'list': mutable type
