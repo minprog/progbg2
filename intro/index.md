@@ -263,7 +263,7 @@ Recursion is a powerful tool that allows you to solve some complex
 problems in only a few lines of code. A recursive function is a
 function that calls itself, we will look at some examples.
 
-### factorial
+### Factorial
 
 The factorial function can be defined iteratively as:
 
@@ -310,14 +310,26 @@ unless there is a stop condition, also called 'base case'. The stop
 condition here is "n==1" because the factorial of 1 is 1 and we don't
 need to continue further.
 
-## Assignment: multiply
+### Assignment: multiply
 
-Write a multiply(a,b) python function that multiplies integer 'a' with
-integer 'b' without for/while loops and without using the '*' operator
-but instead by using recursion and repeated addition
-(a+a+a+...). 
+Write a recursive multiply(a,b) python function that multiplies
+integer 'a' with integer 'b' without for/while loops and without using
+the '*' operator but instead by using recursion and repeated addition
+(a+a+a+...). A recursive definition for multiply is:
 
-## print all lists
+    multiple(a,0) = 0
+    multiple(a,n) = multiple(a,n-1)+a
+
+example evaluation:
+
+                 multiple(4,3)
+            multiple(4,2) + 4
+        multiple(4,1) + 4 + 4
+    multiple(4,0) + 4 + 4 + 4
+                0 + 4 + 4 + 4
+                           12
+
+### Print all lists
 
 For function factorial() we can either make an iterative or a recursive
 implementation, but there are also problems where only a recursive
@@ -338,22 +350,31 @@ implemented like:
 
 Execute the program and see what happens when you print all lists up
 to length 4 or add another element 'c'. The execution can be
-visualized as in figure <recursive_list.png>. At first the option 'a'
-is selected in the for-loop at all three levels. After the first print
-the function returns, the last choice is removed, and the next option
-'b' is selected at level 3. The function returns and removes twice as
-the for-loop in level 3 completes. Now we are back in the for-loop of
-level 2 and select next option 'b' and option 'a' in a new for-loop at
-level 3. This process continues until the for-loop in level 1 is
-completed. Notice that the list is of a mutable type so there is only
+visualized as:
+
+![](recursive_list.png)
+
+- At first the option 'a' is selected in the for-loop at all three
+levels.
+
+- After the first print the function returns, the last choice is
+removed, and the next option 'b' is selected at level 3.
+
+- The function returns and removes twice as the for-loop in level 3
+completes. Now we are back in the for-loop of level 2 and select next
+option 'b' and option 'a' in a new for-loop at level 3.
+
+This process continues until the for-loop in level 1 is
+completed. Notice that our list is of a mutable type so there is only
 one list that is shared by all the levels.
 
 ## Assignment: path finding
 
+Given the graph:
+
 ![](graph.png)
 
-Given the graph in figure <graph.png>. Implement recursive function
-`print_paths()`:
+implement recursive function print_paths():
 
     def print_paths(path, destination, edges):
         print("path: ",path)
@@ -362,4 +383,4 @@ Given the graph in figure <graph.png>. Implement recursive function
 
 so that it prints all valid paths from 'A' to destination 'E'. A path
 it valid if it visits each node at most once. The correct number of
-possible path is 13, just so you can check your result.
+possible path is 13 to check your answer.
