@@ -100,18 +100,20 @@ be changed. Other types like 'list' are 'mutable', they can
 change. The difference is important, lets first look at an immutable
 type:
 
-    v1 = 111       # 'int': immutable type
-    v2 = v1
-    v1 += 222      # value can not mutate so v1 gets bound to a new value
-    print("v1: ", v1, "v2: ", v2, "id(v1):", id(v1), "id(v2):", id(v2)  )
+    >>> v1 = 111       # 'int': immutable type
+    >>> v2 = v1
+    >>> v1 += 222      # value can not mutate so v1 gets bound to a new value
+    >>> print("v1: ", v1, "v2: ", v2, "id(v1):", id(v1), "id(v2):", id(v2)  )
+    v1:  333 v2:  111 id(v1): 139754131600176 id(v2): 10918016
 
 The output is as expected, v1 is changed and v2 still has the intial
 value of 111. For mutable types this is different:
 
-    v1 = [100]     # 'list': mutable type
-    v2 = v1
-    v1.append(222) # mutates the existing value, so also changes v2
-    print("v1: ", v1, "v2: ", v2, "id(v1):", id(v1), "id(v2):", id(v2)  )
+    >>> v1 = [100]     # 'list': mutable type
+    >>> v2 = v1
+    >>> v1.append(222) # mutates the existing value, so also changes v2
+    >>> print("v1: ", v1, "v2: ", v2, "id(v1):", id(v1), "id(v2):", id(v2)  )
+    v1:  [100, 222] v2:  [100, 222] id(v1): 139754131779912 id(v2): 139754131779912
 
 Surprise!, v2 now has the same value a v1 even though v1 is changed
 after assignment 'v2 = v1'. This is because the assignment 'v2 = v1'
@@ -125,11 +127,12 @@ Sometimes you don't want this and want 'v2' to have an independent
 copy of the value of 'v1'. One way of doing this is to use function
 deepcopy():
 
-    import copy              # requires module 'copy'   
-    v1 = [100]     # 'list': mutable type
-    v2 = copy.deepcopy(v1)   # deepcopy makes an independent copy
-    v1.append(222) # changes the existing value
-    print("v1: ", v1, "v2: ", v2, "id(v1):", id(v1), "id(v2):", id(v2)  )
+    >>> import copy              # requires module 'copy'   
+    >>> v1 = [100]     # 'list': mutable type
+    >>> v2 = copy.deepcopy(v1)   # deepcopy makes an independent copy
+    >>> v1.append(222) # changes the existing value
+    >>> print("v1: ", v1, "v2: ", v2, "id(v1):", id(v1), "id(v2):", id(v2)  )
+    v1:  [100, 222] v2:  [100] id(v1): 139754131347912 id(v2): 139754131363720
 
 Now v2 is an indepentent copy of the initial value and is not effected
 by any change in v1. But keep in mind that copying large values (a list
@@ -141,35 +144,40 @@ to be needed, so only make an independent copy if you really need one.
 Companies and research institutes can have millions of lines of source
 code that they have to understand in order to succesfully make changes
 to. Therefore it is important that software is as readable as possible
-even though its logic might be complex. Therefore you will be graded
-on the readability of your source code even though you probably
+even though its logic might be complex. Therefore you will also be
+graded on the readability of your source code even though you probably
 will never have to look at it again after you pass this course.
 
 - think carefully about the names you choose
 
-      s = 0  # bad
-      sum = 0 # better
+      s = 0             # bad
+      sum = 0           # better
       sum_of_grades = 0 # good
 
 - write comments when they are useful 
 
-      width = 25   # assign 25 to width, not useful
+      width = 25        # assign 25 to width, not useful
       length = math.sqrt( x**2 + y**2 )  # use Pythagoras to compute length, useful
 
-- think about problem decomposition
+- think about problem decomposition (splitting in different parts)
 
   Prefer many small functions that each do their own thing over a few
   large functions that do many things. With many functions you can
   give each function a nice name and you can reuse the same function
-  elsewhere.
+  elsewhere. The result is a simpler structure that is less complex to
+  work with.
 
-      def is_average_grade_above_5(grades):  # bad, does 3 things: compute sum, compute average, test
+      def is_average_grade_above_5(grades):
          sum_of_grades = 0
          for grade in grades:
              sum_of_grades += grade
          average_grade = sum_of_grades/len(grades)
          return average_grade>5
 
+      # bad, does 3 things: compute sum, compute average, test
+      #--------------------------------------------------------------
+      # good, each function does its own thing and has a nice name
+      
       def sum_of_grades(grades): 
          sum_of_grades = 0
          for grade in grades:
@@ -182,7 +190,7 @@ will never have to look at it again after you pass this course.
       def is_average_grade_above_5(grades):  # good
          return average_grade(grades) > 5
      
-- Don't repeat yourself
+- don't repeat yourself
 
   Don't copy-past code and change it a bit, instead make a reusable
   function that you can call from different places.
@@ -193,9 +201,8 @@ will never have to look at it again after you pass this course.
   has a way to compute the sum of numbers so we don't have to write
   sum_of_grades() again, instead search and use already existing
   function sum(). Unless ofcourse the goal of the exercise is to write
-  it yourself.
-
-  Take some time to think about shortening your code after writing it: 
+  it yourself. Also take some time to think about shortening your code
+  after writing it:
 
       def in_between(x,min,max):  # bad
           result=True
@@ -218,13 +225,13 @@ and can be frustrating, but don't let a bug get you all worked
 up. Instead write your code carefully (think it through, don't put
 thinking off until testing) and try to find bugs early by testing
 early and often. After adding every few lines of code make sure your
-program still does what you think it does. Because otherwise if you
-don't test often and a bug appears you will not know where to look for
-it and you will likely have to spend more debugging time. Debugging is
-an important skill to furter develop.
+program still does what you think it does. Because if you don't test
+often and a bug appears you will not know where to look for it and you
+will likely have to spend more time debugging. Debugging is an
+important skill to develop.
 
-- print: You can test by temporarily adding print statements to your code, run
-it, and analyse the output:
+- print: You can test by temporarily adding print statements to your
+code, run it, and analyse the output:
 
       def sum_of_grades(grades): 
            sum_of_grades = 0
@@ -233,29 +240,32 @@ it, and analyse the output:
                sum_of_grades += grade
            return sum_of_grades
 
-- debugger: You can also use a debugger to step through your code, see how it
-executes and see how values get changed:
+- debugger: You can also use a debugger to step through your code, see
+how it executes and see how values get changed:
 
   <https://www.youtube.com/watch?v=ChuU3NlYRLQ>
-  (I could not yet find an easily usable graphical python debugger)
+
 
 - test set: Make a small test set to easily test with. For example if
   you want to count how many times each words occurs in a large text
-  then testing with a large text will result in a lot loop iterations
-  and a lot of data that is hard to check. Therefore it is a good idea
-  to first test with a your own small text with just a few words. That
-  way you can easily check each iteration and know what the right
-  output should be. You can incrementally make your test set harder as
-  you write more code. Think about what the most difficult input would
-  be (possible edge cases?) and incrementally add those in your test
-  set.
+  then testing with a large text will result in a lot of loop
+  iterations and a lot of data that is hard to check. Therefore it is
+  a good idea to first test with a your own small text with just a few
+  words. That way you can easily check each iteration and know what
+  the right output should be. You can incrementally make your test set
+  harder as you write more code. Think about what the most difficult
+  input would be (possible edge cases?) and incrementally add those in
+  your test set.
 
 ## Recursion
 
 Recursion is a powerful tool that allows you to solve some complex
 problems in only a few lines of code. A recursive function is a
-function that calls itself, we will look at some examples. The
-factorial function can be defined iteratively as:
+function that calls itself, we will look at some examples.
+
+# factorial
+
+The factorial function can be defined iteratively as:
 
     factorial(n) = 1*2*3*...*n
 
@@ -307,6 +317,7 @@ integer 'b' without for/while loops and without using the '*' operator
 but instead by using recursion and repeated addition
 (a+a+a+...). 
 
+## print all lists
 
 For function factorial() we can either make an iterative or a recursive
 implementation, but there are also problems where only a recursive
