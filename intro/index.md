@@ -54,7 +54,7 @@ In Python all values have a specific type. Python has various built-in types:
 | `list`  | list of same type               | `[1,2,3,4]`            | mutable    |
 | `tuple` | groups possibly different types | `(1,2,'abc',True)`     | immutable  |
 
-more later... 
+more types later... 
 
 Python is dynamically-typed language, that means a type is associated
 with a value and not with a variable (like in the C programming
@@ -84,12 +84,12 @@ because expressions behave differently for different types:
 Sometimes it is unclear what type a value has, for example the value
 your get from a function. In those cases you could try to:
 
-    def my_function():
+    def some_function():
       return [ ('a',1), ('b',2), ('c',3) ]
 
-    print( my_function() )               # print the value and have a look
-    print( type(my_function())  )        # or print the type of the value
-    if isinstance(my_function(), list):  # or test if the value has a specific type
+    print( some_function() )               # print the value and deduce the type
+    print( type(some_function())  )        # or print the type of the value
+    if isinstance(some_function(), list):  # or test if the value has a specific type
        print("the type is a list")
 
 
@@ -100,39 +100,39 @@ be changed. Other types like 'list' are 'mutable', they can
 change. The difference is important, lets first look at an immutable
 type:
 
-    >>> v1 = 111       # 'int': immutable type
+    >>> v1 = 111               # 'int': immutable type
     >>> v2 = v1
-    >>> v1 += 222      # value can not mutate so v1 gets bound to a new value
-    >>> print("v1: ", v1, "v2: ", v2, "id(v1):", id(v1), "id(v2):", id(v2)  )
-    v1:  333 v2:  111 id(v1): 139754131600176 id(v2): 10918016
+    >>> v1 += 222              # value can not mutate so v1 gets bound to a new value
+    >>> print("v1: ", v1, "v2: ", v2, "   id(v1):", id(v1), "id(v2):", id(v2)  )
+    v1:  333 v2:  111    id(v1): 139754131600176 id(v2): 10918016
 
 The output is as expected, v1 is changed and v2 still has the intial
 value of 111. For mutable types this is different:
 
-    >>> v1 = [100]     # 'list': mutable type
+    >>> v1 = [100]              # 'list': mutable type
     >>> v2 = v1
-    >>> v1.append(222) # mutates the existing value, so also changes v2
-    >>> print("v1: ", v1, "v2: ", v2, "id(v1):", id(v1), "id(v2):", id(v2)  )
-    v1:  [100, 222] v2:  [100, 222] id(v1): 139754131779912 id(v2): 139754131779912
+    >>> v1.append(222)          # mutates the existing value, so also changes v2
+    >>> print("v1: ", v1, "v2: ", v2, "   id(v1):", id(v1), "id(v2):", id(v2)  )
+    v1:  [100, 222] v2:  [100, 222]    id(v1): 139754131779912 id(v2): 139754131779912
 
 Surprise!, v2 now has the same value a v1 even though v1 is changed
 after assignment 'v2 = v1'. This is because the assignment 'v2 = v1'
 binds variable v2 to the same value v1 is bound to. They now share the
-same value, the same memory. This can also be seen by observing
-'id(v1)' and 'id(v2)' are the same. Because it is a mutable type the
-value can be changed and a change in v1 will now also effect v2 and
-vice versa.
+same value, the same memory, it is not a copy. This can also be seen
+by observing 'id(v1)' and 'id(v2)' are the same. Because it is a
+mutable type the value can be changed and a change in v1 will now also
+effect v2 and vice versa.
 
 Sometimes you don't want this and want 'v2' to have an independent
 copy of the value of 'v1'. One way of doing this is to use function
 deepcopy():
 
     >>> import copy              # requires module 'copy'   
-    >>> v1 = [100]     # 'list': mutable type
+    >>> v1 = [100]               # 'list': mutable type
     >>> v2 = copy.deepcopy(v1)   # deepcopy makes an independent copy
-    >>> v1.append(222) # changes the existing value
-    >>> print("v1: ", v1, "v2: ", v2, "id(v1):", id(v1), "id(v2):", id(v2)  )
-    v1:  [100, 222] v2:  [100] id(v1): 139754131347912 id(v2): 139754131363720
+    >>> v1.append(222)           # changes v1, but doesn't change v2
+    >>> print("v1: ", v1, "v2: ", v2, "   id(v1):", id(v1), "id(v2):", id(v2)  )
+    v1:  [100, 222] v2:  [100]    id(v1): 139754131347912 id(v2): 139754131363720
 
 Now v2 is an indepentent copy of the initial value and is not effected
 by any change in v1. But keep in mind that copying large values (a list
