@@ -61,25 +61,25 @@ with a value and not with a variable (like in the C programming
 langue). Because of this a variable can change type when you give it a
 new value:
 
->>> my_var = 42
->>> print(  type(my_var) )
-<class 'int'>
->>> my_var = 3>1
->>> print( type(my_var) )
-<class 'bool'>
->>> my_var = "hello world"
->>> print( type(my_var) )
-<class 'str'>
+    >>> my_var = 42
+    >>> print(  type(my_var) )
+    <class 'int'>
+    >>> my_var = 3>1
+    >>> print( type(my_var) )
+    <class 'bool'>
+    >>> my_var = "hello world"
+    >>> print( type(my_var) )
+    <class 'str'>
 
 When you use a value it is important to know its type
 because expressions behave differently for different types:
 
->>> my_var = 42
->>> print( my_var+my_var )
-84
->>> my_var = "hello"
->>> print( my_var+my_var )
-hellohello
+    >>> my_var = 42
+    >>> print( my_var+my_var )
+    84
+    >>> my_var = "hello"
+    >>> print( my_var+my_var )
+    hellohello
 
 Sometimes it is unclear what type a value has, for example the value
 your get from a function. In those cases you could try to:
