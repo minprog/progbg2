@@ -85,7 +85,7 @@ surprisingly easily implemented with use of recursion:
         else:
             for i in elements:
                 list.append(i)       # add element
-                fill_list_recursively(list, n-1, elements)
+                print_all_lists(list, n-1, elements)
                 list.pop()           # remove to add other element later
     
     print_all_lists([], 3, ['a','b'])
