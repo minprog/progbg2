@@ -303,7 +303,8 @@ We can write a recursive python implementation as:
         if n==1:                 # stop condition
             return 1
         return factorial(n-1)*n  # function calling itself
-    factorial(4)
+        
+     print( factorial(4) ) # 24
 
 A recursive function is a function that is calling itself instead of
 using a loop. A function calling itself will keep calling itself until
