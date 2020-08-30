@@ -26,7 +26,7 @@ call this an iterative implementation. But we can also use a recursive
 definition of factorial:
 
     factorial(1) = 1
-    factorial(n) = factorial(n-1)*n
+    factorial(n) = factorial(n-1) * n
 
 for example the factorial of 4 with this definition is evaluated as:
 
@@ -40,9 +40,9 @@ for example the factorial of 4 with this definition is evaluated as:
 We can write a recursive python implementation as:
 
     def factorial(n):
-        if n==1:                 # stop condition
+        if n==1:                   # stop condition
             return 1
-        return factorial(n-1)*n  # function calling itself
+        return factorial(n-1) * n  # function calling itself
         
      print( factorial(4) ) # 24
 
@@ -56,11 +56,11 @@ factorial of 1 is 1 and we don't need to continue further.
 
 Write recursive function multiply(a,b) that multiplies integer 'a'
 with integer 'b' without using for/while loops and without using the
-'*' operator but instead by repeated addition. A recursive definition
-for multiply is:
+'*' operator but instead by using repeated addition. A recursive
+definition for multiply is:
 
     multiple(a,0) = 0
-    multiple(a,n) = multiple(a,n-1)+a
+    multiple(a,b) = multiple(a,b-1) + a
 
 an example evaluation is:
 
@@ -85,7 +85,7 @@ surprisingly easily implemented with use of recursion:
         else:
             for i in elements:
                 list.append(i)       # add element
-                fill_list_recursively(list, n-1, elements)
+                print_all_lists(list, n-1, elements)
                 list.pop()           # remove to add other element later
     
     print_all_lists([], 3, ['a','b'])
@@ -103,9 +103,10 @@ levels.
 - After the first print the function returns, the last choice is
 removed, and the next option 'b' is selected at level 3.
 
-- Then function returns and removes twice as the for-loop in level 3
-completes. Now we are back in the for-loop of level 2 and select next
-option 'b' and then option 'a' in a new for-loop at level 3.
+- After the next print the function returns and removes twice as the
+for-loop in level 3 completes. Now we are back in the for-loop of
+level 2 and select the next option 'b' and option 'a' in a new
+for-loop at level 3.
 
 This process continues until the first for-loop in level 1 is
 completed. Notice that our list is of a mutable type so there is only
