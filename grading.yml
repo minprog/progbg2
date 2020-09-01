@@ -1,110 +1,110 @@
-templates:
-    1: &fullyauto
-        type: pass
-        subgrades:
-            correctness: integer
-        automatic:
-            correctness: (check_score * 5).floor
-        calculation: -(correctness/5)
-        hide_calculated: true
-    3: &manual
-        type: float
-        subgrades:
-            points: integer
-            hacker: integer
-            late: float
-        calculation: ((points + hacker - late) / 5.0 * 9 + 1).round(1)
-    4: &test
-        type: pass
-        subgrades:
-            gehaald: integer
-        calculation: gehaald
-        is_test: true
-        hide_calculated: true
-
-grades:
-    initials_less: *fullyauto
-    initials_more: *fullyauto
-    caesar: *fullyauto
-    vigenere: *fullyauto
-    crack: *fullyauto
-    music: *fullyauto
-    fifteen: *fullyauto
-    find_less: *fullyauto
-    find_more: *fullyauto
-    whodunit:
-        type: float
-        subgrades:
-            correctness: integer
-        calculation: (correctness / 5.0 * 9 + 1).round(1)
-        hide_calculated: true
-    resize_less: *fullyauto
-    resize_more: *fullyauto
-    recover: *fullyauto
-    speller: *fullyauto
-    scores_less: *fullyauto
-    tweet: *fullyauto
-    hangman: *fullyauto
-    adventure-less: *fullyauto
-    adventure-more: *fullyauto
-    m0: *manual
-    m1: *manual
-    m2: *manual
-    m3: *manual
-    m4: *manual
-    m5: *manual
-    
-    tentamen: *test
-    hertentamen: *test
-
-modules:
-    m0:
-        - initials_less
-        - initials_more
-        - caesar
-        - vigenere
-        - crack
-    m1:
-        - fifteen
-        - find_less
-        - find_more
-    m2:
-        - whodunit
-        - resize_less
-        - resize_more
-        - recover
-    m3:
-        - scores_less
-        - tweet
-    m4:
-        - hangman
-    m5:
-        - adventure-less
-        - adventure-more
-
-calculation:
-    eindcijfer:
-        tentamens: 0
-        mods: 100
-    her-cijfer:
-        hertentamens: 0
-        mods: 100
-
-mods:
-    submits:
-        m0: 1
-        m1: 1
-        m2: 1
-        m3: 1
-        m4: 1
-        m5: 1
-
-tentamens:
-    exam: true
-    submits:
-        tentamen: 1
-
-hertentamens:
-    exam: true
-    submits:
-        hertentamen: 1
+# templates:
+#     1: &fullyauto
+#         type: pass
+#         subgrades:
+#             correctness: integer
+#         automatic:
+#             correctness: (check_score * 5).floor
+#         calculation: -(correctness/5)
+#         hide_calculated: true
+#     3: &manual
+#         type: float
+#         subgrades:
+#             points: integer
+#             hacker: integer
+#             late: float
+#         calculation: ((points + hacker - late) / 5.0 * 9 + 1).round(1)
+#     4: &test
+#         type: pass
+#         subgrades:
+#             gehaald: integer
+#         calculation: gehaald
+#         is_test: true
+#         hide_calculated: true
+#
+# grades:
+#     initials_less: *fullyauto
+#     initials_more: *fullyauto
+#     caesar: *fullyauto
+#     vigenere: *fullyauto
+#     crack: *fullyauto
+#     music: *fullyauto
+#     fifteen: *fullyauto
+#     find_less: *fullyauto
+#     find_more: *fullyauto
+#     whodunit:
+#         type: float
+#         subgrades:
+#             correctness: integer
+#         calculation: (correctness / 5.0 * 9 + 1).round(1)
+#         hide_calculated: true
+#     resize_less: *fullyauto
+#     resize_more: *fullyauto
+#     recover: *fullyauto
+#     speller: *fullyauto
+#     scores_less: *fullyauto
+#     tweet: *fullyauto
+#     hangman: *fullyauto
+#     adventure-less: *fullyauto
+#     adventure-more: *fullyauto
+#     m0: *manual
+#     m1: *manual
+#     m2: *manual
+#     m3: *manual
+#     m4: *manual
+#     m5: *manual
+#
+#     tentamen: *test
+#     hertentamen: *test
+#
+# modules:
+#     m0:
+#         - initials_less
+#         - initials_more
+#         - caesar
+#         - vigenere
+#         - crack
+#     m1:
+#         - fifteen
+#         - find_less
+#         - find_more
+#     m2:
+#         - whodunit
+#         - resize_less
+#         - resize_more
+#         - recover
+#     m3:
+#         - scores_less
+#         - tweet
+#     m4:
+#         - hangman
+#     m5:
+#         - adventure-less
+#         - adventure-more
+#
+# calculation:
+#     eindcijfer:
+#         tentamens: 0
+#         mods: 100
+#     her-cijfer:
+#         hertentamens: 0
+#         mods: 100
+#
+# mods:
+#     submits:
+#         m0: 1
+#         m1: 1
+#         m2: 1
+#         m3: 1
+#         m4: 1
+#         m5: 1
+#
+# tentamens:
+#     exam: true
+#     submits:
+#         tentamen: 1
+#
+# hertentamens:
+#     exam: true
+#     submits:
+#         hertentamen: 1
