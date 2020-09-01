@@ -2,7 +2,10 @@ Welkom:
   Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
   Installeer Python op je eigen computer: /python/en/installing/computer
 "Module 0: Introduction":
-  - intro
+  ".":
+    - intro
+  Submit:
+    /submit/intro
 "Module 1: Complexity":
   - complexity
 "Module 2: News":

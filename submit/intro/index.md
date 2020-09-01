@@ -1,4 +1,4 @@
-# Submit Algorithms
+# Submit Intro
 
 Here you can submit your solutions to the problems in your module. Take note:
 
