@@ -103,7 +103,7 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 
 | onderdeel | deadline oplossing | deadline verbeterd |
 | --------- | ------------------ | ------------------ |
-| Module 0  | wo  9 sep  17:59   | vr 11 sep  20:59   |
+| Module 0  | wo  9 sep  17:59   |                    |
 | Module 1  | wo 16 sep  17:59   | vr 18 sep  20:59   |
 | Module 2  | wo 23 sep  17:59   | vr 25 sep  20:59   |
 | Module 3  | wo 30 sep  17:59   | vr  2 sep  20:59   |
