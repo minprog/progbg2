@@ -59,15 +59,15 @@ with integer 'b' without using for/while loops and without using the
 '*' operator but instead by using repeated addition. A recursive
 definition for multiply is:
 
-    multiple(a,0) = 0
-    multiple(a,b) = multiple(a,b-1) + a
+    multiply(a,0) = 0
+    multiply(a,b) = multiply(a,b-1) + a
 
 an example evaluation is:
 
-                 multiple(4,3)
-            multiple(4,2) + 4
-        multiple(4,1) + 4 + 4
-    multiple(4,0) + 4 + 4 + 4
+                 multiply(4,3)
+            multiply(4,2) + 4
+        multiply(4,1) + 4 + 4
+    multiply(4,0) + 4 + 4 + 4
                 0 + 4 + 4 + 4
                            12
 
