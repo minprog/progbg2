@@ -116,7 +116,7 @@ for-loop at level 3.
 This process continues until the first for-loop in level 1 is
 completed. Notice that our list is of a mutable type so there is only
 one list that is shared by all levels, hence the pop() function to
-remove the previously added element.
+remove the previously added element at a level.
 
 ## Assignment: path finding
 
