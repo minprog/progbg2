@@ -44,7 +44,7 @@ We can write a recursive python implementation as:
             return 1
         return factorial(n-1) * n  # function calling itself
         
-     print( factorial(4) ) # 24
+    print( factorial(4) ) # 24
 
 A recursive function is a function that is calling itself instead of
 using a loop. A function calling itself will keep calling itself until
@@ -126,5 +126,5 @@ implement recursive function print_paths():
     print_paths(['A'],'E',[ ('A','B'), ('A','D'), ('B','C'), ('B','D'), ('C','E'), ('C','F'), ('C','D'), ('D','F'), ('E','F') ])
 
 so that it prints all valid paths from 'A' to destination 'E'. A path
-it valid if it visits each node at most once. The correct number of
+is valid if it visits each node at most once. The correct number of
 possible path is 13 (to check your answer).
