@@ -80,25 +80,30 @@ possible lists of length 3 with elements 'a' and 'b' can be
 surprisingly easily implemented with use of recursion:
 
     def print_all_lists(list, n, elements):
-        if n==0:                     # stop condition
+        if n==0:                # stop condition
             print(list)
         else:
             for i in elements:
-                list.append(i)       # add element
+                list.append(i)  # add element to list
                 print_all_lists(list, n-1, elements)
-                list.pop()           # remove to add other element later
+                list.pop()      # remove last element from list
     
     print_all_lists([], 3, ['a','b'])
 
 Execute the program and see what happens when you print all lists of
 length 4 or add another element 'c'.
 
-The evaluation can be visualized as:
+We want to build a list of n elements and for each choice we have 2
+options, elements 'a' and 'b'. To solve this problem recursively we
+can first add 'a' and then simply build a list of the remaining n-1
+elements (note the recursive definition), and then remove 'a' and add
+'b' and again build a list of the remaining n-1 elements. The
+evaluation can be visualized as:
 
 ![](recursive_list.png)
 
-- At first the option 'a' is selected in the for-loop at all three
-levels.
+- At the start the first element 'a' is selected in the for-loop at
+all three levels.
 
 - After the first print the function returns, the last choice is
 removed, and the next option 'b' is selected at level 3.
@@ -110,7 +115,8 @@ for-loop at level 3.
 
 This process continues until the first for-loop in level 1 is
 completed. Notice that our list is of a mutable type so there is only
-one list that is shared by all levels, hence the pop() function.
+one list that is shared by all levels, hence the pop() function to
+remove the previously added element.
 
 ## Assignment: path finding
 
