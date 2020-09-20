@@ -1,28 +1,27 @@
-# templates:
-#     1: &fullyauto
-#         type: pass
-#         subgrades:
-#             correctness: integer
-#         automatic:
-#             correctness: (check_score * 5).floor
-#         calculation: -(correctness/5)
-#         hide_calculated: true
-#     3: &manual
-#         type: float
-#         subgrades:
-#             points: integer
-#             hacker: integer
-#             late: float
-#         calculation: ((points + hacker - late) / 5.0 * 9 + 1).round(1)
-#     4: &test
-#         type: pass
-#         subgrades:
-#             gehaald: integer
-#         calculation: gehaald
-#         is_test: true
-#         hide_calculated: true
-#
-# grades:
+templates:
+    1: &fullyauto
+        type: pass
+        subgrades:
+            correctness: integer
+        automatic:
+            correctness: (check_score * 5).floor
+        calculation: -(correctness/5)
+        hide_calculated: true
+    3: &manual
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 6.0 * 9 + 1).round(1)
+    4: &test
+        type: pass
+        subgrades:
+            gehaald: integer
+        calculation: gehaald
+        is_test: true
+        hide_calculated: true
+
+grades:
+    complexity: *manual
 #     initials_less: *fullyauto
 #     initials_more: *fullyauto
 #     caesar: *fullyauto
