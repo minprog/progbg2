@@ -20,8 +20,8 @@ grades:
     complexity: *manual
     news: *manual
     survival: *manual
-    hangman: *auto-manual
-    adventure: *auto-manual
+    hangman-less: *auto-manual
+    adventure-less: *auto-manual
 
 calculation:
     eindcijfer:
@@ -33,5 +33,5 @@ opdrachten:
         complexity: 1
         news: 1
         survival: 1
-        hangman: 1
-        adventure: 1
+        hangman-less: 1
+        adventure-less: 1
