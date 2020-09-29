@@ -112,7 +112,7 @@ Your first task is to understand what the `Lexicon` class should look like and d
 
 4. Think about the internal structure of the class: what variables do you need to support all expected operations? Write your ideas below the diagram.
 
-Finally, take your class diagram and discuss it with a teaching assistant (via Zoom!) before you continue with the next step. Do not share your diagram with other students until after the assignment is fully completed by everyone.
+Do not share your diagram with other students until after the assignment is fully completed by everyone.
 
 Add your diagram and comments to a file called `analysis.pdf`. You will add more to it in assignment 3.
 
@@ -140,7 +140,7 @@ Now you are going to analyse the `Hangman` class and define an *interface* for i
 
 4. Think about the internal structure of the class: what variables do you need to support all expected operations? Write your ideas below the diagram.
 
-Finally, take your class diagram and, again, discuss it with a teaching assistant (via Zoom!) before you continue with the next step. Do not share your diagram with other students until after the assignment is fully completed by everyone.
+Do not share your diagram with other students until after the assignment is fully completed by everyone.
 
 Add your diagram and comments to a file called `analysis.pdf`.
 
