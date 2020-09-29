@@ -3,7 +3,4 @@ Overzicht, videocollege en becijfering: .
 Opdrachten:
     Implementeer Queue: /objects/queue
     Implementeer Game of Cards: /objects/cards
-    Classic Hangman: /hangman/classic
-# Afronding:
-#     Code review: /hangman/review
-#     Retrospective: /modules/hangman/retrospective
+    Implementeer Hangman: /hangman/classic
