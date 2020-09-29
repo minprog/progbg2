@@ -1,8 +1,5 @@
 # Classic Hangman
 
-> Note: the analysis for this problem must be done individually. Instructions for the analysis are included in the assignments below.
-{:.bg-warning}
-
 ## tl;dr
 
 Implement a program that allows someone to play the classic Hangman game against the computer.
