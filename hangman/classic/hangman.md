@@ -184,7 +184,7 @@ Now an obvious fix is to change the main code (that we provided) to ensure that 
 
 But can't we also prevent the `Lexicon` initialiser from accepting invalid word lengths? It would be much easier to debug our program when this class simply does not accept negative word lengths. And indeed, there is a thing called an **assertion** that we can use. Just add the following line to the very top of the `Lexicon` initialiser:
 
-    assert word_length >= 1 and word_length <= 45, "Invalid word length for Lexicon"
+    assert word_length >= 1 and word_length <= 28, "Invalid word length for Lexicon"
 
 (Note that we assume your parameter is called `word_length`, but it's fine if it is something else. Just change the assertion in that case.)
 
