@@ -5,6 +5,8 @@
 - Implement Crowther's Adventure game using OOP in Python.
 - Play your game!
 
+Note: this is the Hacker version of this assignment, which is considerably larger, but may earn you an extra point.
+
 ## Background
 
 Back in the days, before graphics cards were a thing, text-based adventure games were incredibly popular. This type of game consists entirely out of text, and is traversed by commands much like the ones you would enter in the terminal. One such game is Colossal Cave Adventure, created by [William Crowther](https://en.wikipedia.org/wiki/William_Crowther_(programmer)) in 1975, that served as the inspiration for the text adventure game genre.
