@@ -40,6 +40,7 @@ grades:
     cards: *fullyauto
     hangman-less: *auto-manual
     adventure-less: *auto-manual
+    adventure-more: *auto-manual
 
 calculation:
     eindcijfer:
