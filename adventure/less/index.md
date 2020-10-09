@@ -62,7 +62,7 @@ Implement an object-oriented version of Crowther's Adventure game using the clas
 ### Distribution
 
 	$ cd ~/module9
-	$ wget https://prog2.mprog.nl/course/problems/adventure-less/adventure.zip
+	$ wget https://github.com/minprog/adventure/raw/main/less/adventure.zip
 	$ unzip adventure.zip
 	$ rm adventure.zip
 	$ cd adventure
