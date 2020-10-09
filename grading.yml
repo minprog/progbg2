@@ -23,6 +23,12 @@ templates:
         calculation: -(correctness/100)
         auto_publish: true
         hide_subgrades: true
+    5: &check_off
+        type: pass
+        subgrades:
+            done: boolean
+        calculation: done
+        hide_calculated: true
 
 
 grades:
@@ -30,6 +36,7 @@ grades:
     complexity: *manual
     news: *manual
     survival: *manual
+    queue: *check_off
     cards: *fullyauto
     hangman-less: *auto-manual
     adventure-less: *auto-manual
