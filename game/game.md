@@ -46,5 +46,5 @@ Python modules or other software that is required to run your game.
 Create a short README.md to explain how to start and play your game
 just so that I don't miss anything.
 
-Submit all your files as 'game.zip'.
+Submit all your files as 'game.zip' before Friday October 23 20:59.
 
