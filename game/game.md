@@ -11,14 +11,13 @@ aims to show:
 
 Create your own graphical computer game. Do what you like, be
 creative. Some examples are given in this Youtube video series to help
-you get started, see the description for the Python sources:
-
-  [Python fun](https://www.youtube.com/watch?v=vxMjZX1Mxf4&list=PLJBtJTYGPSzK9izjzMcBi5MAPl6ADrjNE)
+you get started, see the description for the Python sources: [Python
+fun](https://www.youtube.com/watch?v=vxMjZX1Mxf4&list=PLJBtJTYGPSzK9izjzMcBi5MAPl6ADrjNE)
 
 ## TKinter installation
 
 The TKinter module often comes pre-installed with your Python
-environment (make sure you use python version 3!). Test if you have it
+environment (make sure you use python version 3). Test if you have it
 installed with:
 
 ```  python -m tkinter```
@@ -31,9 +30,7 @@ or on Ubuntu use:
 
 ```  sudo apt install python3-tk```
 
-for more instructions see:
-
-  [TKinter install guide](https://tkdocs.com/tutorial/install.html)
+for more install instructions see: [TKinter install guide](https://tkdocs.com/tutorial/install.html)
 
 ## Grading
 
