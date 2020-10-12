@@ -21,15 +21,15 @@ The TKinter module often comes pre-installed with your Python
 environment (make sure you use python version 3!). Test if you have it
 installed with:
 
-  python -m tkinter
+```  python -m tkinter```
 
 or for Anaconda install it using:
 
-  conda install -c anaconda tk
+```  conda install -c anaconda tk```
 
 or on Ubuntu use:
 
-  sudo apt install python3-tk
+```  sudo apt install python3-tk```
 
 for more instructions see:
 
@@ -47,8 +47,8 @@ that really has something extra, surprising, creative. A spectacular
 game also has to scores well on the software quality criteria in the
 "Style Guide" of this course.
 
-- Nice game: 0.5 points added to your grade
-- Spectacular game: 1.0 points added to your grade
+- Nice game: **0.5** points added to your grade
+- Spectacular game: **1.0** points added to your grade
 
 I will be grading your game on Ubuntu 18.04 with Python 3.6.9 and
 TKinter 8.6. In the case that your Python code is not cross-platform I
