@@ -13,8 +13,27 @@ Create your own graphical computer game. Do what you like, be
 creative. Some examples are given in this Youtube video series to help
 you get started, see the description for the Python sources:
 
-[Python fun](https://www.youtube.com/watch?v=vxMjZX1Mxf4&list=PLJBtJTYGPSzK9izjzMcBi5MAPl6ADrjNE)
+  [Python fun](https://www.youtube.com/watch?v=vxMjZX1Mxf4&list=PLJBtJTYGPSzK9izjzMcBi5MAPl6ADrjNE)
 
+## TKinter installation
+
+The TKinter module often comes pre-installed with your Python
+environment (make sure you use python version 3!). Test if you have it
+installed with:
+
+  python -m tkinter
+
+or for Anaconda install it using:
+
+  conda install -c anaconda tk
+
+or on Ubuntu use:
+
+  sudo apt install python3-tk
+
+for more instructions see:
+
+  [TKinter install guide](https://tkdocs.com/tutorial/install.html)
 
 ## Grading
 
@@ -24,9 +43,9 @@ normal grade.
 It is hard to give specification about the grading of such a open
 ended assignment. We decided to go with two levels: "Nice game" for a
 working moderately interesting game and "Spectacular game" for a game
-that really has something extra, something surprising, something
-really creative. A spectacular game also has to scores well on the
-software quality criteria in the "Style Guide" of this course.
+that really has something extra, surprising, creative. A spectacular
+game also has to scores well on the software quality criteria in the
+"Style Guide" of this course.
 
 - Nice game: 0.5 points added to your grade
 - Spectacular game: 1.0 points added to your grade
