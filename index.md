@@ -109,6 +109,7 @@ Elke module moet op de vooraf bepaalde deadline volledig werkend ingeleverd zijn
 | Module 3  | wo 30 sep  17:59   | vr  2 sep  20:59   |
 | Module 4  | wo  7 okt  17:59   | vr  9 okt  20:59   |
 | Module 5  | wo 14 okt  17:59   | vr 16 okt  20:59   |
+| Module X  | vr 23 okt  17:59   | vr 23 okt  17:59   |
 
 <details markdown="1"><summary markdown="span">Wat als ik ziek ben of achterloop?</summary>
 
@@ -148,6 +149,8 @@ De genoemde aspecten zijn de aspecten uit de [style guide](/style).
 | maximaal 3 dagen | 1 punt                            |   -->
 
 Het eindcijfer voor deze cursus wordt bepaald door het totaal aantal punten voor de modules. De puntenscore leidt tot een cijfer tussen 1 en 10, afgerond op halven, zoals gebruikelijk.
+
+Module X (bonus) kan op het eindcijfer 0,5 tot 1,0 punt extra opleveren, al naar gelang de complexiteit van het uitgevoerde project.
 
 <!-- Toetsjes leveren geen punten op voor het eindcijfer, maar moeten wel gehaald worden. -->
 

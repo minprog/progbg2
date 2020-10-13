@@ -1,4 +1,4 @@
-# Game, bonus module
+# Game (bonus module)
 
 Without an exam we have time for an optional bonus module. This module
 aims to show:
@@ -20,15 +20,15 @@ The TKinter module often comes pre-installed with your Python
 environment (make sure you use python version 3). Test if you have it
 installed with:
 
-```  python -m tkinter```
+	python -m tkinter
 
 or for Anaconda install it using:
 
-```  conda install -c anaconda tk```
+	conda install -c anaconda tk
 
 or on Ubuntu use:
 
-```  sudo apt install python3-tk```
+	sudo apt install python3-tk
 
 for more install instructions see: [TKinter install guide](https://tkdocs.com/tutorial/install.html)
 
@@ -44,15 +44,14 @@ that really has something extra, surprising, creative. A spectacular
 game also has to scores well on the software quality criteria in the
 "Style Guide" of this course.
 
-- Nice game: **0.5** points added to your grade
-- Spectacular game: **1.0** points added to your grade
+- Nice game: **0.5** points added to your final grade
+- Spectacular game: **1.0** points added to your final grade
 
 I will be grading your game on Ubuntu 18.04 with Python 3.6.9 and
 TKinter 8.6. In the case that your Python code is not cross-platform I
 will put in some effort to make your code work on my platform but if
 it takes me too long you will not get any points so try to write code
 that isn't platform specific and better test it on Ubuntu.
-
 
 ## Submitting
 
@@ -63,4 +62,3 @@ Create a short README.md to explain how to start and play your game
 just so that I don't miss anything.
 
 Submit all your files as 'game.zip' before Friday October 23 20:59.
-
