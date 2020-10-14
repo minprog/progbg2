@@ -45,6 +45,7 @@ grades:
 calculation:
     eindcijfer:
         opdrachten: 100
+        afgetekend: 100
 
 opdrachten:
     submits:
@@ -54,3 +55,9 @@ opdrachten:
         survival: 1
         hangman-less: 1
         adventure-less: 1
+        adventure-more: 1
+
+afgetekend:
+    submits:
+        queue: 1
+        cards: 1
