@@ -54,9 +54,14 @@ opdrachten:
         news: 1
         survival: 1
         hangman-less: 1
-        adventure: [1, adventure-less, adventure-more]
+        adventure-less: 1
+        # adventure-more: 1
 
 afgetekend:
     submits:
         queue: 1
         cards: 1
+
+optioneel:
+    submits:
+        adventure-more: 1
