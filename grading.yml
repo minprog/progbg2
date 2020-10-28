@@ -45,7 +45,7 @@ grades:
 calculation:
     eindcijfer:
         opdrachten: 100
-        afgetekend: 100
+        afgetekend: 0
 
 opdrachten:
     submits:
