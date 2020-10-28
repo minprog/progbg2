@@ -41,6 +41,7 @@ grades:
     hangman-less: *auto-manual
     adventure-less: *auto-manual
     adventure-more: *auto-manual
+    game: *manual
 
 calculation:
     eindcijfer:
