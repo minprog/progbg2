@@ -1,4 +1,0 @@
-name: intro
-files:
-    required:
-        - recursion.py

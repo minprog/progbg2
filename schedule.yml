@@ -1,20 +1,81 @@
 Welkom:
-  Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
-  Installeer Python op je eigen computer: /python/en/installing/computer
-"Module 0: Introduction":
-  ".":
-    - intro
-  Submit:
-    /submit/intro
-"Module 1: Complexity":
-  - complexity
-"Module 2: News":
-  - news
-"Module 3: Survival":
-  - survival
-"Module 4: Hangman":
-  - hangman
-"Module 5: Adventure":
-  - adventure
-"Module X: Game":
-  Build your own game (bonus): /game
+    Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
+
+Week 1:
+    Maandag:
+        'Videocollege: Computational Thinking': /lectures/computational-thinking
+    Dinsdag:
+        Scratch [individueel]: /cs50/scratch
+    Woensdag:
+        'Videocollege: C': /lectures/c
+        'Hello [zelf]': /cs50/hello
+    Donderdag:
+        Population [samen]: /cs50/population
+    Vrijdag:
+        'Boek: Variabelen [boek]': /exercises/book/variables
+
+Week 2:
+    Maandag:
+        Mario [individueel]: /cs50/mario/less
+    Dinsdag en woensdag:
+        Cash [individueel]: /cs50/cash
+    Donderdag:
+        'Boek: Control Flow [boek]': /exercises/book/control-flow
+    Vrijdag:
+        'Videocollege: Arrays': /lectures/arrays
+    Extra:
+        Credit [extra]: /cs50/credit
+
+Week 3:
+    Werkgroep:
+        'Review: Mario & Cash': /modules/review-1
+    Maandag:
+        'Oefenen: Strings [samen]': /exercises/writing/strings
+    Dinsdag:
+        'Scrabble [samen]': /cs50/scrabble
+    Woensdag en donderdag:
+        'Readability [individueel]': /cs50/readability
+    Vrijdag:
+        'Boek: Strings en Arrays [boek]': /exercises/book/arrays
+
+Week 4:
+    Werkgroep:
+        'Review: Readability': /modules/review-2
+    Maandag en dinsdag:
+        'Caesar [individueel]': /cs50/caesar
+    Woensdag:
+        'Oefenen: Functies [zelf]': /exercises/writing/functions
+    Donderdag:
+        'Boek: Functies [boek]': /exercises/book/functions
+    Vrijdag:
+        'Videocollege: Algorithms': /lectures/algorithms
+    Extra:
+        Crack [extra]: /cs50/crack
+
+Week 5:
+    Werkgroep:
+        'Review: Caesar': /modules/review-3
+    Maandag:
+        'Oefenen: Linear Search [samen]': /exercises/writing/linear
+    Dinsdag:
+        'Oefenen: Algorithms [samen]': /exercises/study/algorithms
+        Sort [samen]: /cs50/sort
+    Woensdag en donderdag:
+        Find [individueel]: /cs50/find/less
+    Vrijdag:
+        'Oefenen: Big-O [zelf]': /exercises/study/big-o
+    Extra:
+        Fifteen [extra]: /cs50/fifteen/random
+
+Week 6:
+    Werkgroep:
+        'Review: Find': /modules/review-4
+    Maandag:
+        'Videocollege: Python': /lectures/python-david
+        Mario [zelf]: /cs50/py/mario
+    Dinsdag:
+        Readability [zelf]: /cs50/py/readability
+    Woensdag:
+        World Cup [samen]: /cs50/worldcup
+    Donderdag en vrijdag:
+        DNA [individueel]: /cs50/dna
