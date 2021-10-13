@@ -1,0 +1,4 @@
+name: connect_four
+files:
+    required:
+        - connect_four.py
