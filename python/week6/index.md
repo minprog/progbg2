@@ -8,6 +8,11 @@ vind je hier:
 
 [![Week6](https://img.youtube.com/vi/8suAM_72L8g/0.jpg)](https://www.youtube.com/watch?v=8suAM_72L8g&list=PLJBtJTYGPSzI3EFPzdA8-i7_cBz58QTH0&index=2"Week6")
 
+## Installeren
+
+- [Python](https://realpython.com/installing-python/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
 > Samenwerken bij deze opdracht is niet toegestaan; het is prima om
 > medestudenten en anderen om hulp te vragen, als het er maar niet op
 > neerkomt dat iemand anders een deel van het werk voor je
