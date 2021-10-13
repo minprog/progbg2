@@ -65,6 +65,8 @@ grades:
     retrospective_4: *check
     retrospective_5: *check
 
+    connect_four: *manual
+
 calculation:
     eindcijfer:
         opdrachten: 25
@@ -98,6 +100,7 @@ opdrachten:
         worldcup: 1
         dna: 1
         climate: 1
+        connect_four: 1
 
 basisboek:
     show_progress: true
