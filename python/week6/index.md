@@ -13,10 +13,15 @@ vind je hier:
 - [Python](https://realpython.com/installing-python/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
+## Connect Four
+
 > Samenwerken bij deze opdracht is niet toegestaan; het is prima om
 > medestudenten en anderen om hulp te vragen, als het er maar niet op
 > neerkomt dat iemand anders een deel van het werk voor je
 > doet. Voorbeelden van “redelijke” en “onredelijke” manieren van
 > samenwerken vind je in de studiewijzer.
 
-De submit mogelijkheid voor 'connect four' (vier-op-een-rij) volgt later.
+Zie [connect four](https://youtu.be/0be0RLrL8_Y) voor de
+opdrachtomschrijving en zie [connect four
+testing](https://youtu.be/BiQrNK-rM_E) voor een manier om je
+uitwerking te testen.
