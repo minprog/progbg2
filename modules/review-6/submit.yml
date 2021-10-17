@@ -1,4 +1,4 @@
 name: review_6
 files:
     required:
-        - climate.ipynb
+        - connect_four_reviewed.py
