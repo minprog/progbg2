@@ -96,11 +96,6 @@ opdrachten:
         credit: :bonus
         crack: :bonus
         fifteen_random: :bonus
-        mario_py: 1
-        readability_py: 1
-        worldcup: 1
-        dna: 1
-        climate: 1
         connect_four: 1
         gas_simulation: 1
 
