@@ -66,6 +66,7 @@ grades:
     retrospective_5: *check
 
     connect_four: *manual
+    gas_simulation: *manual
 
 calculation:
     eindcijfer:

@@ -1,4 +1,4 @@
 name: review_6
 files:
     required:
-        - connect_four_reviewed.py
+        - gas_simulation_reviewed.py
