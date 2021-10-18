@@ -101,6 +101,7 @@ opdrachten:
         dna: 1
         climate: 1
         connect_four: 1
+        gas_simulation: 1
 
 basisboek:
     show_progress: true

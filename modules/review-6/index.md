@@ -1,4 +1,4 @@
-# Code review 6 (Climate)
+# Code review 6 (Connect_Four)
 
 > Warning: do not start code review until you **and** your partner are completely done and have submitted working versions of each program in the module. If you haven't finished your programs you should ask for help on that specifically and never look at someone else's code.
 > Additionaly, your mentor should assign a partner for you: each week, it will be a **different** one. This is make sure that you encounter as many insights as possible about writing good code.
@@ -21,15 +21,13 @@ In order to keep the task within reasonable limits, for each module we will prov
     - [Loops](/quality/aspects/loops)
     - [Scope](/quality/aspects/scope)
 
-2.  Before you start, don't forget to use `style50` to automatically suggest corrections for indentation and whitespace! However, `style50` is a very simple tool, so do not depend on it too much. And feel free to ignore the suggestions if you feel your code's layout is more consistent like it is.
+2.  Then, you should find your assigned partner to do code reviews with. You will **sit together** behind your computer or using screen sharing, and your partner will review your code on the criteria above. It is absolutely best if your partner can control your computer to browse through your code.
 
-3.  Then, you should find your assigned partner to do code reviews with. You will **sit together** behind your computer or using screen sharing, and your partner will review your code on the criteria above. It is absolutely best if your partner can control your computer to browse through your code.
+3.  Your partner will think aloud and ask questions about what they do not understand. Feel free to explain your code, but do focus on **listening**. Your partner can also provide advice, but you can decide for yourself what to do with that. Take notes.
 
-4.  Your partner will think aloud and ask questions about what they do not understand. Feel free to explain your code, but do focus on **listening**. Your partner can also provide advice, but you can decide for yourself what to do with that. Take notes.
+4.  Now your partner will share their computer and you can browse through their code, ask questions and provide advice.
 
-5.  Now your partner will share their computer and you can browse through their code, ask questions and provide advice.
-
-6.  Finally, take an hour or so to **improve your programs** by considering the feedback that you got in the review. Don't forget to re-read the explanations of the aspects once more! In addition, it is completely acceptable to improve your programs in other ways.
+5.  Finally, take an hour or so to **improve your programs** by considering the feedback that you got in the review. Don't forget to re-read the explanations of the aspects once more! In addition, it is completely acceptable to improve your programs in other ways.
 
 ## What to submit
 
