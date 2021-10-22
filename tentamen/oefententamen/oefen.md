@@ -8,7 +8,7 @@
 > - Stilte in de zaal.
 > - Er is geen pauze, overdrijf niet met drinken, toiletbezoek op verzoek.
 > - Klaar is klaar, dan kun je inleveren en weggaan.
-> - Voor inleveren steek je je hand op, de surveillant komt meekijken.
+> - Voor inleveren steek je je hand op, de surveillant komt controleren voordat je inlevert.
 
 Hieronder vind je vijf opdrachten. Het doel van het tentamen is te demonstreren dat je zelfstandig een oplossing voor een probleem kunt ontwikkelen, en daarbij gebruik kunt maken van de basistechnieken van programmeren, zoals bijvoorbeeld de verschillende soorten loops, if-else-constructies, enzovoort.
 
