@@ -22,7 +22,7 @@ Als bronnen mag je gebruiken:
 2. de CS50 Manual waarin allerlei nuttige C-functies genoemd staan,
 3. en je eigen uitwerkingen van eerdere opdrachten.
 
-Programmeren moet in de CS50 IDE.
+Programmeren moet in de CS50 IDE. Je hebt dus alleen je webbrowser geopend met daarin enkele tabs: de CS50 IDE, de CS50 Manual, en deze cursuswebsite. Je mag geen andere programma's open hebben.
 
 In je uitwerking in C mag je alleen gebruik maken van de library-functies die ook in de CS50 Manual staan. In Python mag je alleen gebruik maken van functies die behandeld zijn in de colleges, en specifiek mag je geen gebruik maken van Numpy, Pandas of andere libraries die direct het juiste antwoord geven op de vraag. In plaats daarvan moet je laten zien dat je loops e.d. beheerst.
 
