@@ -65,7 +65,7 @@ grades:
     retrospective_4: *check
     retrospective_5: *check
 
-    connect_four: *manual
+    connect_four: *check
     gas_simulation: *manual
 
 calculation:
@@ -97,7 +97,6 @@ opdrachten:
         crack: :bonus
         fifteen_random: :bonus
         connect_four: 1
-        gas_simulation: 1
 
 basisboek:
     show_progress: true
@@ -115,7 +114,7 @@ reviews:
         review_3: 1
         review_4: 1
         review_5: 1
-        review_6: 1
+        gas_simulation: 1
 
 retrospectives:
     show_progress: true
