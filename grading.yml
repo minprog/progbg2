@@ -68,6 +68,8 @@ grades:
     connect_four: *check
     gas_simulation: *manual
 
+    tentamen: *check
+
 calculation:
     eindcijfer:
         opdrachten: 25
@@ -124,3 +126,10 @@ retrospectives:
         retrospective_3: 1
         retrospective_4: 1
         retrospective_5: 1
+
+tentamen:
+    show_progress: true
+    required: true
+    submits:
+        # oefententamen: 0
+        tentamen: 1
