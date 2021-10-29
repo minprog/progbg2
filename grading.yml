@@ -85,6 +85,10 @@ calculation:
         reviews: 75
         # retrospectives: 0
 
+opdrachten_gedaan:
+    submits:
+        hello: 1
+
 opdrachten:
     show_progress: true
     submits:
@@ -103,9 +107,6 @@ opdrachten:
         sort: 1
         find_less: 1
         big_o: 1
-        credit: :bonus
-        crack: :bonus
-        fifteen_random: :bonus
         connect_four: 1
 
 basisboek:
