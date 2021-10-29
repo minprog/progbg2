@@ -80,7 +80,7 @@ grades:
 
 calculation:
     eindcijfer:
-        opdrachten: 25
+        opdrachten_gedaan: 25
         # basisboek: 0
         reviews: 75
         # retrospectives: 0
