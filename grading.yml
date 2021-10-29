@@ -82,7 +82,7 @@ calculation:
     eindcijfer:
         opdrachten_gedaan: 25
         # basisboek: 0
-        reviews: 75
+        cijfers: 75
         # retrospectives: 0
 
 opdrachten_gedaan:
